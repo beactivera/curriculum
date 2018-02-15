@@ -1,0 +1,43 @@
+.modal{
+    /*position: fixed;*/
+    padding-top: 10vh;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    background: rgba(0, 0, 0, .7);
+}
+
+.modal-content{
+    margin: auto;
+    padding: 15px;
+    width: 80vw;
+    height: 75vh;
+    background-color: #fefefe;
+}
+
+.modal-title{
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.ects-points{
+    padding: 20px;
+    font-size: 15px;
+}
+
+.description{
+    padding: 20px;
+}
+
+.list-internship{
+    text-align: center;
+    list-style-type: none;
+}
+
+.list-title{
+    padding: 10px;
+    font-size: 20px;
+}
