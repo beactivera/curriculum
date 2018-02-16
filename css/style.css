@@ -1,3 +1,27 @@
+*{
+  font-family: Verdana;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+nav{
+    position: fixed;
+    display: block;
+    top:0;
+    right: 0;
+    height: 100vh;
+    background-color: #F66565;
+
+}
+nav a{
+    padding: 25px;
+    padding-right: 50px;
+    padding-left: 30px;
+    display: block;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
 .modal{
     /*position: fixed;*/
     padding-top: 10vh;
@@ -6,15 +30,17 @@
     top: 0;
     left: 0;
     overflow: auto;
-    background: rgba(0, 0, 0, .7);
+    background: #DCD9D9;
 }
 
 .modal-content{
     margin: auto;
     padding: 15px;
-    width: 80vw;
-    height: 75vh;
-    background-color: #fefefe;
+    width: 60vw;
+    height: 60vh;
+    background-color: #F8ECEC;
+    overflow: scroll;
+    overflow-x: hidden;
 }
 
 .modal-title{
@@ -40,4 +66,11 @@
 .list-title{
     padding: 10px;
     font-size: 20px;
+}
+
+button{
+    padding: 10px;
+    font-size: 15px;
+    justify-content: center;
+    background-color: #F66565;
 }
