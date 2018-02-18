@@ -26,6 +26,36 @@ nav a{
     font-weight: bold;
     text-decoration: none;
 }
+
+.study-program{
+    padding-right: 300px;
+}
+.study-title-1{
+    text-align: left;
+    padding: 20px;
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+.study-content{
+    padding: 50px;
+    padding-left: 100px;
+    text-align: center;
+}
+
+.study-title-2{
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.time{
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
 .modal{
     /*position: fixed;*/
     padding-top: 10vh;
@@ -82,6 +112,7 @@ button{
 .contact{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-right: 250px;
 }
 
 .contact-title{
@@ -100,6 +131,7 @@ button{
 
 .email{
     padding: 20px;
+    padding-top: 30px;
 }
 
 input{
@@ -109,6 +141,7 @@ input{
 
 .advisor{
     padding: 10px;
+    padding-top: 30px;
 }
 
 .icons{
