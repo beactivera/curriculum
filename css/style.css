@@ -49,6 +49,10 @@ nav a{
     font-size: 30px;
 }
 
+.cores{
+    text-align: center;
+}
+
 .time{
     padding: 20px;
     font-size: 15px;
