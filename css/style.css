@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+div{
+    overflow-y: hidden;
+}
 nav{
     position: fixed;
     display: block;
@@ -15,7 +18,7 @@ nav{
 }
 nav a{
     padding: 25px;
-    padding-right: 50px;
+    padding-right: 47px;
     padding-left: 30px;
     display: block;
     font-size: 20px;
@@ -75,3 +78,45 @@ button{
     justify-content: center;
     background-color: #F66565;
 }
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-title{
+    grid-column: 1/-1;
+    text-align: left;
+    padding: 20px;
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+.contact-more{
+    grid-column: 1/-1;
+    padding: 20px;
+    text-align: left;
+}
+
+.email{
+    padding: 20px;
+}
+
+.email{
+    padding: 15px;
+}
+
+input{
+    margin: 5px;
+    padding: 5px;
+}
+
+.advisor{
+    padding-top: 20px;
+}
+
+.icons{
+    padding: 20px;
+}
+
+
