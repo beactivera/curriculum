@@ -56,6 +56,35 @@ nav a{
     text-align: center;
 }
 
+.table{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 15px;
+    padding-left: 30px;
+    text-align: center;
+    grid-gap: 10px;
+}
+
+.year{
+    margin-top: 15px;
+    padding: 18px;
+    grid-column: 1/-1;
+    font-size: 20px;
+    background-color: #FF81AF;
+}
+
+.semester{
+    padding: 12px;
+    font-size: 15px;
+    background-color: #F5CAD1;
+}
+
+.project{
+    padding: 40px 10px 40px 10px;
+    font-size 12px;
+    background-color: #F8ECEC;
+}
+
 .modal{
     /*position: fixed;*/
     padding-top: 10vh;
