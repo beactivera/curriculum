@@ -86,6 +86,10 @@ nav a{
     padding: 40px;
 }
 
+.intro-container h2{
+    color: gray;
+}
+
 .intro-container p{
     padding: 10px;
 }
@@ -112,6 +116,7 @@ nav a{
     padding: 10px;
     text-align: center;
     font-size: 50px;
+    color: gray;
 }
 
 .cores{
@@ -264,6 +269,7 @@ button{
 }
 
 /* study abroad */
+
 .img-abroad{
     background-image: url(/img/red-headers/red-study-abroad.png);
 }
@@ -316,6 +322,69 @@ button{
 .country{
     padding: 20px;
     text-align: center;
+}
+
+.country h3{
+    color: gray;
+}
+
+/* student life */
+
+.img-life{
+    background-image: url(/img/red-headers/red-student-life.png);
+}
+
+.student-container{
+    padding: 20px;
+    padding-left: 190px;
+}
+
+.student-container p{
+    padding: 20px 90px 20px 90px;
+}
+
+.student-container h2{
+    text-align: center;
+    font-size: 35px;
+}
+
+/* career */
+
+.title-career-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.title-career{
+     position: relative;
+    margin: 0;
+    padding: 10px;
+    padding-left: 100px;
+    font-size: 50px; 
+    font-weight: 400;
+}
+
+.img-career{
+    padding: 80px;
+   background-size: contain;
+   background-repeat: no-repeat; 
+    background-image: url(/img/balloon.png)
+}
+
+.career-container{
+    padding: 20px;
+    padding-left: 190px;
+}
+
+.subtitle-career{
+    padding: 30px 100px 30px 100px;
+    font-size: 40px;
+    font-weight: 600;
+    color: gray;
+}
+
+.career-container p{
+    padding: 20px 100px 20px 100px;
 }
 
 /* contact */
