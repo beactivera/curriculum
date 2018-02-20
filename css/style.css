@@ -1,3 +1,5 @@
+/* DESKTOP FIRST */
+
 *{
   font-family: Nirmala UI;
     overflow-x: hidden;
@@ -7,6 +9,8 @@
 div{
     overflow-y: hidden;
 }
+
+/* navigation */
 .logo-front{
     margin: 5px;
     padding: 50px;
@@ -35,6 +39,7 @@ nav a{
     text-decoration: none;
 }
 
+/* front section */
 .front-square{
     position: fixed;
     top: 0;
@@ -51,6 +56,7 @@ nav a{
     font-size: 90px;
 }
 
+/* global size for section images */
 .img-header{
   position: relative;
    margin-left: 150px;
@@ -65,6 +71,7 @@ nav a{
     background-image: url(/img/red-headers/red-introduction.png);
 }
 
+/* global size for section titles */
 .title-section{
     position: relative;
     margin: 0;
@@ -73,6 +80,7 @@ nav a{
     font-weight: 400;
 }
 
+/* introduction */
 .intro-container{
     margin-left: 190px;
     padding: 40px;
@@ -85,6 +93,8 @@ nav a{
 .img-program{
     background-image: url(/img/red-headers/red-study-program.png);
 }
+
+/* study program */
 
 .study-container{
     padding: 20px;
@@ -144,6 +154,9 @@ nav a{
     background-color: #A79E9E;
 }
 
+
+/* modals in study program */
+
 .modal{
     /*position: fixed;*/
     padding-top: 10vh;
@@ -197,15 +210,23 @@ button{
     background-color: #F66565;
 }
 
+/* admission */
 
-.admission-title{
-    padding: 30px;
-    font-size: 30px;
-    text-align: center;
+.img-admission{
+    background-image: url(/img/red-headers/red-admission.png);
+}
+
+.admission-container{
+    padding: 20px;
+    padding-left: 190px;
 }
 
 .admission-desc{
     padding: 20px;
+}
+
+.admission-desc p{
+    padding: 10px;
 }
 
 .adm-container{
@@ -214,15 +235,90 @@ button{
     padding: 20px;
 }
 
+.adm-container p{
+    padding: 10px;
+}
+
+.list-adm{
+    list-style-type: disc;
+}
+
 .adm-elem1, .adm-elem2, .adm-elem3, .adm-elem4, .adm-elem5, .adm-elem6, .adm-elem7, .adm-elem8, .adm-elem9, .adm-elem10{
     margin: 5px;
     padding: 10px;
-    border: 2px black solid;
+    background-color: #DCD9D9;
+}
+
+.adm-elem1:hover,.adm-elem2:hover,.adm-elem3:hover,.adm-elem4:hover,.adm-elem5:hover,.adm-elem6:hover,.adm-elem7:hover,.adm-elem8:hover,.adm-elem9:hover,.adm-elem10:hover{
+    color: #DCD9D9;
+    background-color: black;
+}
+
+.change-color{
+   color: #DCD9D9;
+    background-color: black; 
 }
 
 .hide{
     display: none;
 }
+
+/* study abroad */
+.img-abroad{
+    background-image: url(/img/red-headers/red-study-abroad.png);
+}
+
+.abroad-container{
+    padding: 20px;
+    padding-left: 200px;
+}
+
+.images-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    padding: 50px;
+}
+
+.images-container div{
+    width: 100%;
+    padding: 90px;
+    padding-right: 0;
+    padding-left: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img1{
+    background-image: url(/img/Griffith.png);
+}
+
+.img2{
+    background-image: url(/img/korea.png);
+}
+
+.img3{
+    background-image: url(/img/lisbon.png);
+}
+
+.img4{
+    background-image: url(/img/napier.png);
+}
+
+.abroad-container p{
+    padding: 15px;
+}
+
+.country-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.country{
+    padding: 20px;
+    text-align: center;
+}
+
+/* contact */
 
 .contact-container{
     display: grid;

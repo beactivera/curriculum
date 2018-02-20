@@ -20,6 +20,7 @@ let admBtn1 = document.querySelector('.adm-elem1');
 admBtn1.addEventListener('click', showMoreAdm1);
 function showMoreAdm1(){
     admBtn1.nextElementSibling.classList.toggle('hide');
+    admBtn1.classList.toggle('change-color');
 }
 
 
@@ -27,6 +28,7 @@ let admBtn2 = document.querySelector('.adm-elem2');
 admBtn2.addEventListener('click', showMoreAdm2);
 function showMoreAdm2(){
     admBtn2.nextElementSibling.classList.toggle('hide');
+    admBtn2.classList.toggle('change-color');
 }
 
 
@@ -34,6 +36,7 @@ let admBtn3 = document.querySelector('.adm-elem3');
 admBtn3.addEventListener('click', showMoreAdm3);
 function showMoreAdm3(){
     admBtn3.nextElementSibling.classList.toggle('hide');
+    admBtn3.classList.toggle('change-color');
 }
 
 
@@ -41,6 +44,7 @@ let admBtn4 = document.querySelector('.adm-elem4');
 admBtn4.addEventListener('click', showMoreAdm4);
 function showMoreAdm4(){
     admBtn4.nextElementSibling.classList.toggle('hide');
+    admBtn4.classList.toggle('change-color');
 }
 
 
@@ -48,6 +52,7 @@ let admBtn5 = document.querySelector('.adm-elem5');
 admBtn5.addEventListener('click', showMoreAdm5);
 function showMoreAdm5(){
     admBtn5.nextElementSibling.classList.toggle('hide');
+    admBtn5.classList.toggle('change-color');
 }
 
 
@@ -55,6 +60,7 @@ let admBtn6 = document.querySelector('.adm-elem6');
 admBtn6.addEventListener('click', showMoreAdm6);
 function showMoreAdm6(){
     admBtn6.nextElementSibling.classList.toggle('hide');
+    admBtn6.classList.toggle('change-color');
 }
 
 
@@ -62,6 +68,7 @@ let admBtn7 = document.querySelector('.adm-elem7');
 admBtn7.addEventListener('click', showMoreAdm7);
 function showMoreAdm7(){
     admBtn7.nextElementSibling.classList.toggle('hide');
+    admBtn7.classList.toggle('change-color');
 }
 
 
@@ -69,6 +76,7 @@ let admBtn8 = document.querySelector('.adm-elem8');
 admBtn8.addEventListener('click', showMoreAdm8);
 function showMoreAdm8(){
     admBtn8.nextElementSibling.classList.toggle('hide');
+    admBtn8.classList.toggle('change-color');
 }
 
 
@@ -76,6 +84,7 @@ let admBtn9 = document.querySelector('.adm-elem9');
 admBtn9.addEventListener('click', showMoreAdm9);
 function showMoreAdm9(){
     admBtn9.nextElementSibling.classList.toggle('hide');
+    admBtn9.classList.toggle('change-color');
 }
 
 
@@ -83,4 +92,5 @@ let admBtn10 = document.querySelector('.adm-elem10');
 admBtn10.addEventListener('click', showMoreAdm10);
 function showMoreAdm10(){
     admBtn10.nextElementSibling.classList.toggle('hide');
+    admBtn10.classList.toggle('change-color');
 }
