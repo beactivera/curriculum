@@ -1,0 +1,188 @@
+*{
+  font-family: Verdana;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+div{
+    overflow-y: hidden;
+}
+nav{
+    position: fixed;
+    display: block;
+    top:0;
+    right: 0;
+    height: 100vh;
+    background-color: #F66565;
+
+}
+nav a{
+    padding: 25px;
+    padding-right: 47px;
+    padding-left: 30px;
+    display: block;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.study-program{
+    padding-right: 300px;
+}
+.study-title-1{
+    text-align: left;
+    padding: 20px;
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+.study-content{
+    padding: 50px;
+    padding-left: 100px;
+    text-align: center;
+}
+
+.study-title-2{
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.cores{
+    text-align: center;
+}
+
+.time{
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 15px;
+    padding-left: 30px;
+    text-align: center;
+    grid-gap: 10px;
+}
+
+.year{
+    margin-top: 15px;
+    padding: 18px;
+    grid-column: 1/-1;
+    font-size: 20px;
+    background-color: #FF81AF;
+}
+
+.semester{
+    padding: 12px;
+    font-size: 15px;
+    background-color: #F5CAD1;
+}
+
+.project{
+    padding: 40px 10px 40px 10px;
+    font-size 12px;
+    background-color: #F8ECEC;
+}
+
+.modal{
+    /*position: fixed;*/
+    padding-top: 10vh;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    background: #DCD9D9;
+}
+
+.modal-content{
+    margin: auto;
+    padding: 15px;
+    width: 60vw;
+    height: 60vh;
+    background-color: #F8ECEC;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.modal-title{
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.ects-points{
+    padding: 20px;
+    font-size: 15px;
+}
+
+.description{
+    padding: 20px;
+}
+
+.list-internship{
+    text-align: center;
+    list-style-type: none;
+}
+
+.list-title{
+    padding: 10px;
+    font-size: 20px;
+}
+
+button{
+    padding: 10px;
+    font-size: 15px;
+    justify-content: center;
+    background-color: #F66565;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-right: 250px;
+}
+
+.contact-title{
+    grid-column: 1/-1;
+    text-align: left;
+    padding: 20px;
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+.contact-more{
+    grid-column: 1/-1;
+    padding: 20px;
+    text-align: left;
+}
+
+.email{
+    padding: 20px;
+    padding-top: 30px;
+}
+
+input{
+    margin: 5px;
+    padding: 5px;
+}
+
+.advisor{
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.icons{
+    padding: 20px;
+}
+
+.contact-info{
+    padding: 10px;
+}
+
+
