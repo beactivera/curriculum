@@ -142,9 +142,31 @@ button{
     background-color: #F66565;
 }
 
+
+.admission-title{
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.admission-desc{
+    padding: 20px;
+}
+
 .adm-container{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: .5fr .5fr;
+    padding: 20px;
+}
+
+.adm-elem1, .adm-elem2, .adm-elem3, .adm-elem4, .adm-elem5, .adm-elem6, .adm-elem7, .adm-elem8, .adm-elem9, .adm-elem10{
+    margin: 5px;
+    padding: 10px;
+    border: 2px black solid;
+}
+
+.hide{
+    display: none;
 }
 
 .contact{
