@@ -389,10 +389,18 @@ button{
 
 /* contact */
 
+.img-contact{
+    background-image: url(/img/red-headers/red-contact.png);
+}
+
 .contact-container{
+    padding: 30px;
+    padding-left: 230px;
+}
+
+.contact-table{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding-right: 250px;
 }
 
 .contact-title{
@@ -404,12 +412,15 @@ button{
 
 .contact-more{
     padding: 20px;
-    text-align: left;
 }
 
 .email{
     padding: 20px;
     padding-top: 30px;
+}
+
+.icons{
+    padding: 30px;
 }
 
 input{
@@ -422,12 +433,8 @@ input{
     padding-top: 30px;
 }
 
-.icons{
-    padding: 20px;
-}
-
 .contact-info{
-    padding: 10px;
+    padding-top: 25px;
 }
 
 
