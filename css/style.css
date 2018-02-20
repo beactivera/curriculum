@@ -39,6 +39,16 @@ nav a{
     text-decoration: none;
 }
 
+#intro-nav:hover, #program-nav:hover, #adm-nav:hover, #abroad-nav:hover, #student-nav:hover, #career-nav:hover, #contact-nav:hover{
+    color:white;
+    background-color: black;
+}
+
+.active-color{
+    color:white;
+    background-color: black;
+}
+
 /* front section */
 .front-square{
     position: fixed;
