@@ -14,7 +14,7 @@ div{
 .logo-front{
     margin: 5px;
     padding: 50px;
-    background-image: url(/img/kea-logo_3.jpg);
+    background-image: url(../img/kea-logo_3.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -78,7 +78,7 @@ nav a{
 }
 
 .img-intro{
-    background-image: url(/img/red-headers/red-introduction.png);
+    background-image: url(../img/red-headers/red-introduction.png);
 }
 
 /* global size for section titles */
@@ -105,7 +105,7 @@ nav a{
 }
 
 .img-program{
-    background-image: url(/img/red-headers/red-study-program.png);
+    background-image: url(../img/red-headers/red-study-program.png);
 }
 
 /* study program */
@@ -228,7 +228,7 @@ button{
 /* admission */
 
 .img-admission{
-    background-image: url(/img/red-headers/red-admission.png);
+    background-image: url(../img/red-headers/red-admission.png);
 }
 
 .admission-container{
@@ -281,7 +281,7 @@ button{
 /* study abroad */
 
 .img-abroad{
-    background-image: url(/img/red-headers/red-study-abroad.png);
+    background-image: url(../img/red-headers/red-study-abroad.png);
 }
 
 .abroad-container{
@@ -305,19 +305,19 @@ button{
     background-repeat: no-repeat;
 }
 .img1{
-    background-image: url(/img/Griffith.png);
+    background-image: url(../img/Griffith.png);
 }
 
 .img2{
-    background-image: url(/img/korea.png);
+    background-image: url(../img/korea.png);
 }
 
 .img3{
-    background-image: url(/img/lisbon.png);
+    background-image: url(../img/lisbon.png);
 }
 
 .img4{
-    background-image: url(/img/napier.png);
+    background-image: url(../img/napier.png);
 }
 
 .abroad-container p{
@@ -341,7 +341,7 @@ button{
 /* student life */
 
 .img-life{
-    background-image: url(/img/red-headers/red-student-life.png);
+    background-image: url(../img/red-headers/red-student-life.png);
 }
 
 .student-container{
@@ -378,7 +378,7 @@ button{
     padding: 80px;
    background-size: contain;
    background-repeat: no-repeat; 
-    background-image: url(/img/balloon.png)
+    background-image: url(../img/balloon.png)
 }
 
 .career-container{
@@ -400,7 +400,7 @@ button{
 /* contact */
 
 .img-contact{
-    background-image: url(/img/red-headers/red-contact.png);
+    background-image: url(../img/red-headers/red-contact.png);
 }
 
 .contact-container{
