@@ -1,6 +1,6 @@
 /* DESKTOP FIRST */
 
-* {
+*{
     font-family: Nirmala UI;
     overflow-x: hidden;
 }
@@ -12,22 +12,15 @@ body{
     padding: 0;
 }
 
-<<<<<<< HEAD
-div {
-=======
+
 div{
->>>>>>> 0d3cd7914a74e5126df05aafcc2f3f8d5ca93374
     overflow-y: hidden;
 }
 
 /* navigation */
-<<<<<<< HEAD
 
 .logo-front {
-=======
-.logo-front{
     position: fixed;
->>>>>>> 0d3cd7914a74e5126df05aafcc2f3f8d5ca93374
     margin: 5px;
     padding: 90px;
     background-image: url(../img/kea-logo_3.jpg);
@@ -95,21 +88,8 @@ nav a {
 }
 
 /* global size for section images */
-<<<<<<< HEAD
-
 .img-header {
     position: relative;
-    margin-left: 150px;
-    padding: 60px;
-    width: 100vw;
-    height: 9vh;
-    background-size: contain;
-    background-repeat: no-repeat;
-=======
-.img-header{
-display: grid;
-    grid-column: 1/-1;
-   position: relative;
     margin-top: 90px;
     margin-left: 190px;
     padding: 70px;
