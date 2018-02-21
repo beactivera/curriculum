@@ -1,95 +1,202 @@
+/* DESKTOP FIRST */
+
 *{
-  font-family: Verdana;
+    font-family: Nirmala UI;
     overflow-x: hidden;
-    margin: 0;
+}
+
+body{
+     margin: 0;
+    margin-left: 60px;
+    margin-right: 60px;
     padding: 0;
 }
+
+
 div{
     overflow-y: hidden;
 }
-nav{
+
+/* navigation */
+
+.logo-front {
+    position: fixed;
+    margin: 5px;
+    padding: 90px;
+    background-image: url(../img/kea-logo_3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+nav {
     position: fixed;
     display: block;
-    top:0;
-    right: 0;
-    height: 100vh;
-    background-color: #F66565;
+    top: 38%;
+    left: 0;
+    height: 60vh;
+    background-color: white;
 
 }
-nav a{
-    padding: 25px;
-    padding-right: 47px;
-    padding-left: 30px;
+
+nav a {
+    padding: 15px;
+    padding-right: 30px;
+    padding-left: 25px;
     display: block;
     font-size: 20px;
     color: black;
-    font-weight: bold;
+    font-weight: 500;
+    text-transform: capitalize;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
-.study-program{
-    padding-right: 300px;
-}
-.study-title-1{
-    text-align: left;
-    padding: 20px;
-    padding-top: 30px;
-    font-size: 50px;
+#intro-nav:hover,
+#program-nav:hover,
+#adm-nav:hover,
+#abroad-nav:hover,
+#student-nav:hover,
+#career-nav:hover,
+#contact-nav:hover {
+    color: white;
+    background-color: black;
+    transition: all 1.5s;
 }
 
-.study-content{
-    padding: 50px;
-    padding-left: 100px;
+.active-color {
+    color: white;
+    background-color: #ff9b9b;
+    opacity: 0.8;
+}
+
+/* front section */
+
+.front-square {
+    position: fixed;
+    top: 0;
+    right: 7vw;
+    width: 70vw;
+    height: 100vh;
+    background-color: #FDEAEA;
+}
+
+.title {
+    padding: 30px;
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 90px;
+}
+
+/* global size for section images */
+.img-header {
+    position: relative;
+    margin-top: 90px;
+    margin-left: 290px;
+    padding: 70px;
+   width: 100vw;
+   height: 9vh;
+   background-size: contain;
+   background-repeat: no-repeat; 
+}
+
+.img-intro {
+    background-image: url(../img/red-headers/red-introduction.png);
+}
+
+/* global size for section titles */
+
+.title-section {
+    position: relative;
+    margin: 0;
+    padding-left: 125px;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+/* global size for subtitles section */
+
+.sub-section{
+    font-size: 35px;
+    padding-left: 60px;
+    font-weight: 600;
+    color: gray;
+}
+
+/* introduction */
+
+.intro-container {
+    margin-left: 190px;
+    padding: 40px;
+}
+
+.intro-container h2 {
+    color: gray;
+}
+
+.intro-container p {
+    padding: 20px 100px 20px 55px;
+    
+}
+
+.img-program {
+    background-image: url(../img/red-headers/red-study-program.png);
+}
+
+/* study program */
+
+.study-container {
+    margin-left: 190px;
+    padding: 40px;
+}
+
+.study-content {
+    padding: 20px 100px 20px 55px;
+}
+
+.cores {
     text-align: center;
 }
 
-.study-title-2{
-    padding: 10px;
-    text-align: center;
-    font-size: 30px;
-}
-
-.cores{
-    text-align: center;
-}
-
-.time{
+.time {
     padding: 20px;
     font-size: 15px;
     font-weight: bold;
     text-align: center;
 }
 
-.table{
+.table {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 15px;
-    padding-left: 30px;
+    padding: 15px 130px 15px 50px;
     text-align: center;
     grid-gap: 10px;
 }
 
-.year{
-    margin-top: 15px;
+
+.year {
+    margin-top: 40px;
     padding: 18px;
     grid-column: 1/-1;
     font-size: 20px;
-    background-color: #FF81AF;
+    background-color: #DCD9D9;
 }
 
-.semester{
+.semester {
     padding: 12px;
     font-size: 15px;
-    background-color: #F5CAD1;
+    background-color: #DCD9D9;
 }
 
-.project{
+.project {
     padding: 40px 10px 40px 10px;
     font-size 12px;
-    background-color: #F8ECEC;
+    background-color: #A79E9E;
 }
 
-.modal{
+
+/* modals in study program */
+
+.modal {
     /*position: fixed;*/
     padding-top: 10vh;
     width: 100vw;
@@ -100,7 +207,7 @@ nav a{
     background: #DCD9D9;
 }
 
-.modal-content{
+.modal-content {
     margin: auto;
     padding: 15px;
     width: 60vw;
@@ -110,79 +217,275 @@ nav a{
     overflow-x: hidden;
 }
 
-.modal-title{
+.modal-title {
     padding: 30px;
     font-size: 30px;
     text-align: center;
 }
 
-.ects-points{
+.ects-points {
     padding: 20px;
     font-size: 15px;
 }
 
-.description{
+.description {
     padding: 20px;
 }
 
-.list-internship{
+.list-internship {
     text-align: center;
     list-style-type: none;
 }
 
-.list-title{
+.list-title {
     padding: 10px;
     font-size: 20px;
 }
 
-button{
+button {
     padding: 10px;
     font-size: 15px;
     justify-content: center;
     background-color: #F66565;
 }
 
-.contact{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-right: 250px;
+/* admission */
+
+.img-admission {
+    background-image: url(../img/red-headers/red-admission.png);
 }
 
-.contact-title{
-    grid-column: 1/-1;
+.admission-container {
+    padding: 20px;
+    padding-left: 190px;
+}
+
+.admission-desc {
+    padding: 20px;
+}
+
+.admission-desc p {
+    padding: 10px;
+}
+
+.adm-container {
+    display: grid;
+    grid-template-columns: .5fr .5fr;
+    padding: 20px;
+}
+
+.adm-container p {
+    padding: 10px;
+}
+
+.list-adm {
+    list-style-type: disc;
+}
+
+.adm-elem1,
+.adm-elem2,
+.adm-elem3,
+.adm-elem4,
+.adm-elem5,
+.adm-elem6,
+.adm-elem7,
+.adm-elem8,
+.adm-elem9,
+.adm-elem10 {
+    margin: 5px;
+    padding: 10px;
+    background-color: #DCD9D9;
+}
+
+.adm-elem1:hover,
+.adm-elem2:hover,
+.adm-elem3:hover,
+.adm-elem4:hover,
+.adm-elem5:hover,
+.adm-elem6:hover,
+.adm-elem7:hover,
+.adm-elem8:hover,
+.adm-elem9:hover,
+.adm-elem10:hover {
+    color: #DCD9D9;
+    background-color: black;
+}
+
+.change-color {
+    color: #DCD9D9;
+    background-color: black;
+}
+
+.hide {
+    display: none;
+}
+
+/* study abroad */
+
+.img-abroad {
+    background-image: url(../img/red-headers/red-study-abroad.png);
+}
+
+.abroad-container {
+    padding: 20px;
+    padding-left: 200px;
+}
+
+.images-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    padding: 50px;
+}
+
+.images-container div {
+    width: 100%;
+    padding: 90px;
+    padding-right: 0;
+    padding-left: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.img1 {
+    background-image: url(../img/Griffith.png);
+}
+
+.img2 {
+    background-image: url(../img/korea.png);
+}
+
+.img3 {
+    background-image: url(../img/lisbon.png);
+}
+
+.img4 {
+    background-image: url(../img/napier.png);
+}
+
+.abroad-container p {
+    padding: 15px;
+}
+
+.country-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.country {
+    padding: 20px;
+    text-align: center;
+}
+
+.country h3 {
+    color: gray;
+}
+
+/* student life */
+
+.img-life {
+    background-image: url(../img/red-headers/red-student-life.png);
+}
+
+.student-container {
+    padding: 20px;
+    padding-left: 190px;
+}
+
+.student-container p {
+    padding: 20px 90px 20px 90px;
+}
+
+.student-container h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+/* career */
+
+.title-career-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.title-career {
+    position: relative;
+    margin: 0;
+    padding: 10px;
+    padding-left: 100px;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.img-career {
+    padding: 80px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(../img/balloon.png)
+}
+
+.career-container {
+    padding: 20px;
+    padding-left: 190px;
+}
+
+.subtitle-career {
+    padding: 30px 100px 30px 100px;
+    font-size: 40px;
+    font-weight: 600;
+    color: gray;
+}
+
+.career-container p {
+    padding: 20px 100px 20px 100px;
+}
+
+/* contact */
+
+.img-contact {
+    background-image: url(../img/red-headers/red-contact.png);
+}
+
+.contact-container {
+    padding: 30px;
+    padding-left: 230px;
+}
+
+.contact-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-title {
     text-align: left;
     padding: 20px;
     padding-top: 30px;
     font-size: 50px;
 }
 
-.contact-more{
-    grid-column: 1/-1;
+.contact-more {
     padding: 20px;
-    text-align: left;
 }
 
-.email{
+.email {
     padding: 20px;
     padding-top: 30px;
 }
 
-input{
+.icons {
+    padding: 30px;
+}
+
+input {
     margin: 5px;
     padding: 5px;
 }
 
-.advisor{
+.advisor {
     padding: 10px;
     padding-top: 30px;
 }
 
-.icons{
-    padding: 20px;
+.contact-info {
+    padding-top: 25px;
 }
-
-.contact-info{
-    padding: 10px;
-}
-
-
