@@ -170,9 +170,8 @@ function showContact(){
 }
 
 
-/////// modals plus json ////////
+/////// modals from json ////////
 
-//
 //fetch("cores.json").then(result => result.json()).then(data => show(data));
 //
 //function show(cores){
@@ -180,6 +179,87 @@ function showContact(){
 //      console.log(core); 
 //    });
 //}
+
+
+/////// modals ///////
+
+//mmd1
+let mmd1Btn = document.getElementById('mmd1-btn');
+mmd1Btn.addEventListener('click', showMMD1)
+function showMMD1(){
+    document.getElementById('mmd1').classList.remove('hide');
+}
+
+let mmd1Close = document.getElementById('close-mmd1');
+mmd1Close.addEventListener('click', closeMMD1)
+function closeMMD1(){
+    document.getElementById('mmd1').classList.add('hide');
+}
+
+//mmd2
+let mmd2Btn = document.getElementById('mmd2-btn');
+mmd2Btn.addEventListener('click', showMMD2)
+function showMMD2(){
+    document.getElementById('mmd2').classList.remove('hide');
+}
+
+let mmd2Close = document.getElementById('close-mmd2');
+mmd2Close.addEventListener('click', closeMMD2)
+function closeMMD2(){
+    document.getElementById('mmd2').classList.add('hide');
+}
+
+//mmd3
+let mmd3Btn = document.getElementById('mmd3-btn');
+mmd3Btn.addEventListener('click', showMMD3)
+function showMMD3(){
+    document.getElementById('mmd3').classList.remove('hide');
+}
+
+let mmd3Close = document.getElementById('close-mmd3');
+mmd3Close.addEventListener('click', closeMMD3)
+function closeMMD3(){
+    document.getElementById('mmd3').classList.add('hide');
+}
+
+//electives
+let electBtn = document.getElementById('elect-btn');
+electBtn.addEventListener('click', showElect)
+function showElect(){
+    document.getElementById('elect').classList.remove('hide');
+}
+
+let electClose = document.getElementById('close-elect');
+electClose.addEventListener('click', closeElect)
+function closeElect(){
+    document.getElementById('elect').classList.add('hide');
+}
+
+//internship
+let internBtn = document.getElementById('intern-btn');
+internBtn.addEventListener('click', showIntern)
+function showIntern(){
+    document.getElementById('intern').classList.remove('hide');
+}
+
+let internClose = document.getElementById('close-intern');
+internClose.addEventListener('click', closeIntern)
+function closeIntern(){
+    document.getElementById('intern').classList.add('hide');
+}
+
+//final exam
+let finalBtn = document.getElementById('final-btn');
+finalBtn.addEventListener('click', showFinal)
+function showFinal(){
+    document.getElementById('final').classList.remove('hide');
+}
+
+let finalClose = document.getElementById('close-final');
+finalClose.addEventListener('click', closeFinal)
+function closeFinal(){
+    document.getElementById('final').classList.add('hide');
+}
 
 
 /////// admission buttoms ///////
