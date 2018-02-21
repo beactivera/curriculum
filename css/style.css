@@ -411,6 +411,14 @@ button {
     padding: 15px 55px 15px 60px;
 }
 
+.instagram{
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding:80px;
+}
+
+
 /* career */
 
 .title-career-container {
@@ -457,24 +465,18 @@ button {
 }
 
 .contact-container {
-    padding: 30px;
-    padding-left: 230px;
+    margin-left: 190px;
+    padding: 20px 110px 20px 45px;
+}
+
+.contact-desc{
+    padding: 15px 55px 15px 60px;
 }
 
 .contact-table {
     display: grid;
     grid-template-columns: 1fr 1fr;
-}
-
-.contact-title {
-    text-align: left;
-    padding: 20px;
-    padding-top: 30px;
-    font-size: 50px;
-}
-
-.contact-more {
-    padding: 20px;
+    padding: 50px;
 }
 
 .email {
@@ -500,9 +502,6 @@ input {
     padding-top: 25px;
 }
 
-.instagram{
-    width:100%;
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    padding:80px;
+.contact-info p{
+    padding: 5px;
 }
