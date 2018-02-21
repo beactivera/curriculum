@@ -1,16 +1,4 @@
-{
-    "elements":[
-        {
-            "title":"MMP 1",
-            "ects":30,
-            "listpoints":[
-                "Business: 5ects",
-                "Com... 5
-            ],
-            "description":"yadda, yadda"
-        }
-    ],
-    "cores":[
+[
         {
             "title": "Business",
             "ects": 15,
@@ -74,5 +62,4 @@
                 "participate in teams with a view to developing digital user interfaces", "handle process documentation and communication in relation to stakeholders", "independently keep up to date and acquire new knowledge within the latest international technological trends and engage in innovative development of multimedia productions with special emphasis on the user interface."
             ]
         }
-    ]
-}
+ ]
