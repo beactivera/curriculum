@@ -7,8 +7,8 @@
 
 body{
      margin: 0;
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
     padding: 0;
 }
 
@@ -91,13 +91,12 @@ nav a {
 .img-header {
     position: relative;
     margin-top: 90px;
-    margin-left: 190px;
+    margin-left: 290px;
     padding: 70px;
    width: 100vw;
    height: 9vh;
    background-size: contain;
    background-repeat: no-repeat; 
->>>>>>> 0d3cd7914a74e5126df05aafcc2f3f8d5ca93374
 }
 
 .img-intro {
@@ -109,9 +108,18 @@ nav a {
 .title-section {
     position: relative;
     margin: 0;
-    padding-left: 100px;
+    padding-left: 125px;
     font-size: 40px;
     font-weight: 400;
+}
+
+/* global size for subtitles section */
+
+.sub-section{
+    font-size: 35px;
+    padding-left: 60px;
+    font-weight: 600;
+    color: gray;
 }
 
 /* introduction */
@@ -126,7 +134,8 @@ nav a {
 }
 
 .intro-container p {
-    padding: 10px;
+    padding: 20px 100px 20px 55px;
+    
 }
 
 .img-program {
@@ -136,22 +145,12 @@ nav a {
 /* study program */
 
 .study-container {
-    padding: 20px;
-    padding-left: 190px;
+    margin-left: 190px;
+    padding: 40px;
 }
 
 .study-content {
-    padding: 50px;
-    padding-left: 100px;
-    padding-right: 100px;
-    text-align: center;
-}
-
-.study-title-2 {
-    padding: 10px;
-    text-align: center;
-    font-size: 50px;
-    color: gray;
+    padding: 20px 100px 20px 55px;
 }
 
 .cores {
@@ -168,14 +167,14 @@ nav a {
 .table {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 15px;
-    padding-left: 30px;
+    padding: 15px 130px 15px 50px;
     text-align: center;
     grid-gap: 10px;
 }
 
+
 .year {
-    margin-top: 15px;
+    margin-top: 40px;
     padding: 18px;
     grid-column: 1/-1;
     font-size: 20px;
