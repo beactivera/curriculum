@@ -452,13 +452,18 @@ button {
 }
 
 .contact-container {
-    padding: 30px;
-    padding-left: 230px;
+   margin-left: 190px;
+    padding: 20px 110px 20px 45px; 
+}
+
+.contact-container p{
+    padding-left: 60px;
 }
 
 .contact-table {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 40px;
 }
 
 .contact-title {
@@ -493,6 +498,11 @@ input {
 
 .contact-info {
     padding-top: 25px;
+}
+
+.contact-info p{
+    padding: 7px;
+    padding-left: 20px;
 }
 
 .instagram {
