@@ -92,7 +92,7 @@ nav a {
 .img-header {
     position: relative;
     margin-top: 90px;
-    margin-left: 290px;
+    margin-left: 60px;
     padding: 70px;
     width: 100vw;
     height: 9vh;
@@ -134,16 +134,26 @@ nav a {
 
 .intro-container {
     margin-left: 190px;
-    padding: 40px;
+    padding: 20px 110px 20px 45px;
 }
 
 .intro-container h2 {
+<<<<<<< HEAD
+    padding-left: 60px;
+    color: gray;
+}
+
+.intro-container p {
+    padding: 20px 60px 20px 60px;
+    
+=======
     color: #000000;
 }
 
 .intro-container p {
     padding: 20px 100px 20px 55px;
 
+>>>>>>> dfa5ea96d0f1289f1454146e89a7b3bc53ee7971
 }
 
 .img-program {
@@ -154,11 +164,11 @@ nav a {
 
 .study-container {
     margin-left: 190px;
-    padding: 40px;
+    padding: 20px 110px 20px 45px;
 }
 
 .study-content {
-    padding: 20px 100px 20px 55px;
+    padding: 0px 40px 0px 60px;
 }
 
 .cores {
@@ -175,7 +185,8 @@ nav a {
 .table {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 15px 130px 15px 50px;
+    margin-left: 60px;
+    margin-right: 50px;
     text-align: center;
     grid-gap: 10px;
 }
@@ -264,12 +275,12 @@ button {
 }
 
 .admission-container {
-    padding: 20px;
-    padding-left: 190px;
+  margin-left: 190px;
+    padding: 20px 110px 20px 45px;
 }
 
 .admission-desc {
-    padding: 20px;
+    padding: 20px 40px 20px 50px;
 }
 
 .admission-desc p {
@@ -279,7 +290,7 @@ button {
 .adm-container {
     display: grid;
     grid-template-columns: .5fr .5fr;
-    padding: 20px;
+    padding: 20px 40px 20px 50px;
 }
 
 .adm-container p {
@@ -335,15 +346,15 @@ button {
 }
 
 .abroad-container {
-    padding: 20px;
-    padding-left: 200px;
+     margin-left: 190px;
+    padding: 20px 110px 20px 45px;
 }
 
 .images-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
-    padding: 50px;
+    padding-left: 70px;
 }
 
 .images-container div {
@@ -372,7 +383,7 @@ button {
 }
 
 .abroad-container p {
-    padding: 15px;
+    padding: 15px 40px 15px 60px;
 }
 
 .country-container {
@@ -396,17 +407,12 @@ button {
 }
 
 .student-container {
-    padding: 20px;
-    padding-left: 190px;
+  margin-left: 190px;
+    padding: 20px 110px 20px 45px;
 }
 
 .student-container p {
-    padding: 20px 90px 20px 90px;
-}
-
-.student-container h2 {
-    text-align: center;
-    font-size: 35px;
+    padding: 15px 55px 15px 60px;
 }
 
 /* career */
@@ -496,4 +502,11 @@ input {
 
 .contact-info {
     padding-top: 25px;
+}
+
+.instagram{
+    width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding:80px;
 }
