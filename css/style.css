@@ -12,7 +12,6 @@ body {
     padding: 0;
 }
 
-
 div {
     overflow-y: hidden;
 }
@@ -150,6 +149,7 @@ nav a {
 
 .intro-container p {
     padding: 20px 100px 20px 55px;
+
 }
 
 .img-program {
@@ -271,7 +271,7 @@ button {
 }
 
 .admission-container {
-  margin-left: 190px;
+    margin-left: 190px;
     padding: 20px 110px 20px 45px;
 }
 
@@ -342,7 +342,7 @@ button {
 }
 
 .abroad-container {
-     margin-left: 190px;
+    margin-left: 190px;
     padding: 20px 110px 20px 45px;
 }
 
@@ -403,21 +403,13 @@ button {
 }
 
 .student-container {
-  margin-left: 190px;
+    margin-left: 190px;
     padding: 20px 110px 20px 45px;
 }
 
 .student-container p {
     padding: 15px 55px 15px 60px;
 }
-
-.instagram{
-    width:100%;
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    padding:80px;
-}
-
 
 /* career */
 
@@ -460,18 +452,24 @@ button {
 }
 
 .contact-container {
-    margin-left: 190px;
-    padding: 20px 110px 20px 45px;
-}
-
-.contact-desc{
-    padding: 15px 55px 15px 60px;
+    padding: 30px;
+    padding-left: 230px;
 }
 
 .contact-table {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 50px;
+}
+
+.contact-title {
+    text-align: left;
+    padding: 20px;
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+.contact-more {
+    padding: 20px;
 }
 
 .email {
@@ -497,6 +495,9 @@ input {
     padding-top: 25px;
 }
 
-.contact-info p{
-    padding: 5px;
+.instagram {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px;
 }
