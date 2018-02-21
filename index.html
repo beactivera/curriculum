@@ -7,91 +7,116 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Cur2</title>
 </head>
-<nav>
-
-    <a href="#">Introduction</a>
-    <a href="#">Study Program</a>
-    <a href="#">Admission</a>
-    <a href="#">Study Abroad</a>
-    <a href="#">Student Life</a>
-    <a href="#">Career</a>
-    <a href="#">Contact</a>
-</nav>
 
 <body>
-    <!-- Emily -->
-    <section class="introduction">
+    <div class="logo-front">
+
+    </div>
+    <nav>
+
+        <a href="#" id="intro-nav">Introduction</a>
+        <a href="#" id="program-nav">Study Program</a>
+        <a href="#" id="adm-nav">Admission</a>
+        <a href="#" id="abroad-nav">Study Abroad</a>
+        <a href="#" id="student-nav">Student Life</a>
+        <a href="#" id="career-nav">Career</a>
+        <a href="#" id="contact-nav">Contact</a>
+    </nav>
+    <!-- front -->
+    <section id="front" class="front">
+        <div class="front-square">
+            <p class="title">
+                <br>MULTIMEDIA
+                <br>DESIGN +
+                <br>COMMUNICATION
+                <br>MMD
+            </p>
+        </div>
     </section>
+    <!-- introduction -->
+    <section id="introduction" class="introduction hide">
 
-    <section class="study-program">
-    <div class="study-title-1">
-        Study program
-    </div>
-    <div class="study-content">
-            The multimedia design programme is built on four core areas: Interaction development, design and visualisation, communication and presentation and business.
-    </div>
-    <div class="study-title-2">
-        Core Areas
-    </div>
-    <div class="cores">
-        CORES
-    </div>
-    <div class="study-title-2">
-        Program Structure
-    </div>
-    <div class="study-content">
-            The instruction is based on projects, which provide a basis for understanding practice, and the tasks are normally carried out in groups. Classroom instruction is gradually being replaced by advisor-based instruction.
-    </div>
-    <div class="time">
-        2 years /  4 semesters / 120 ECTS
-    </div>
-    <div class="table">
-        <div class="year">
-            First Year
+        <div class="img-header img-intro">
+            <p class="title-section">
+                MULTIMEDIA DESIGN
+                <br>AND COMMUNICATION</p>
         </div>
-        <div class="semester">
-            1st Semester
+        <div class="intro-container">
+            <h2>What is Multimedia Design and Communication?</h2>
+
+            <p>The multimedia design programme is built on four core areas: Interaction development, design and visualisation, communication and presentation and business. You learn to work with frontend development, User Interface Design (UI), User Experience Design (UX) and you understanding the business context.</p>
+
+            <p>During your studies you are in close contact with businesses when creating projects and writing papers in cooperation with a specific company or organisation. During the studies you will have an internship period at a company in order to mobilise your competencies in practice. We cooperate with a wide range of business types including agencies, companies, and cultural organisations.</p>
         </div>
-        <div class="semester">
-            2nd Semester
-        </div>
-        <div class="project">
-            Multimedia Production 1
-        </div>
-        <div class="project">
-            Multimedia Production 2
-        </div>
-        
-        <div class="year">
-            Second Year
-        </div>
-        <div class="semester">
-            3rd Semester
-        </div>
-        <div class="semester">
-            4th Semester
-        </div>
-        <div class="project">
-            Multimedia Production 3
-        </div>
-        <div class="project">
-            Internship
-        </div>
-        <div class="project">
-            Electives
-        </div>
-        <div class="project">
-            Final Exam
-        </div>
-        
-        
-    </div>
-    
     </section>
+    <!-- study program -->
+    <section id="program" class="study-program hide">
+        <div class="img-header img-program">
+            <p class="title-section">
+                STUDY PROGRAM
+            </p>
+        </div>
+        <div class="study-container">
+            <div class="study-title-2">
+                Core Areas
+            </div>
+            <div class="study-content">
+                The multimedia design programme is built on four core areas: Interaction development, design and visualisation, communication and presentation and business.
+            </div>
+            <div class="cores">
+                CORES
+            </div>
+            <div class="study-title-2">
+                Program Structure
+            </div>
+            <div class="study-content">
+                The instruction is based on projects, which provide a basis for understanding practice, and the tasks are normally carried out in groups. Classroom instruction is gradually being replaced by advisor-based instruction.
+            </div>
+            <div class="time">
+                2 years / 4 semesters / 120 ECTS
+            </div>
+            <div class="table">
+                <div class="year">
+                    First Year
+                </div>
+                <div class="semester">
+                    1st Semester
+                </div>
+                <div class="semester">
+                    2nd Semester
+                </div>
+                <div class="project">
+                    Multimedia Production 1
+                </div>
+                <div class="project">
+                    Multimedia Production 2
+                </div>
 
+                <div class="year">
+                    Second Year
+                </div>
+                <div class="semester">
+                    3rd Semester
+                </div>
+                <div class="semester">
+                    4th Semester
+                </div>
+                <div class="project">
+                    Multimedia Production 3
+                </div>
+                <div class="project">
+                    Internship
+                </div>
+                <div class="project">
+                    Electives
+                </div>
+                <div class="project">
+                    Final Exam
+                </div>
 
-    <!--Weronika-->
-    <!-- for the study programs modal could we do a template and json? try to FIND a pattern -->
+            </div>
+        </div>
+    </section>
 
     <!-- mmd-production 1 -->
     <div class="modal hide">
@@ -186,9 +211,7 @@
     </div>
 
 
-
-    <!-- patern in core area? -- what about ul list, do they need another class name? -->
-
+    <!-- core areas -->
     <!-- business-->
     <div class="modal hide">
         <aside class="modal-content">
@@ -219,112 +242,247 @@
         </aside>
     </div>
 
-    <!-- Celia -->
-    <section class="admission">
-    </section>
-    <!-- Emily -->
-    <section class="study-abroad">
-    </section>
-
-    <section class="exam">
-    </section>
-
-    <section class="career">
-    </section>
-
-    <section class="contact">
-       <div class="contact-title">
-           Contact
-       </div>
-        <div class="contact-more">
-            <p><b>Need to know more?</b>
-            <br>You are more than welcome to come to our <b>OPEN HOUSE</b> which will happen on 28 Febuary 12 p.m - 6 p.m.
-            <br><a href="http://keaconnect.dk/en/">Click here</a> for more information.
+    <!-- admission -->
+    <section id="admission" class="admission hide">
+        <div class="img-header img-admission">
+            <p class="title-section">
+                ADMISSION
             </p>
         </div>
-        <div class="email">
-         email:
-                <input type="email" />
-            <p><textarea name="comments" cols="50" rows="10">Leave a message
+        <div class="admission-container">
+            <div class="admission-desc">
+                <p>An education equivalent to a Danish upper secondary education or relevant vocational education is required (English B and Math C must be included).</p>
+
+                <p>Mathematics C-level is required in order to apply for the AP Degree in Multimedia Design and Communication. The Mathematics C-level is represented by 125 hours during the last three years of upper-secondary school (equivalent to the Danish C-level of a Danish upper-secondary examination</p>
+
+                <p>The programme is connected to the Coordinated Enrolment System (KOT). You can be enrolled either in Quota 1 or Quota 2.</p>
+            </div>
+            <div class="adm-container">
+                <div class="adm-first-col">
+                    <h5 class="adm-elem1">Admission Requirements Quota 1</h5>
+                    <p class="elem-cont hide">
+                        Quota 1 means you will be accepted based on your qualifications from your upper-secondary education. Quota 2 means you will be accepted based on your overall qualifications, including any possible qualifying training.
+                    </p>
+                    <h5 class="adm-elem2">Admission Requirements Quota 2</h5>
+                    <div class="elem-cont hide">
+                        <ul class="list-adm">
+                            Quota 2 admissions are allocated according to the following criteria:
+                            <li>Work experience, minimum 30 hours per week – including internships and national service. The internship must, however, not have been part of your entry qualification. Documentation must be included in the form of either work contracts, pay slips or employer statements.</li>
+                            <li>Other activities, minimum 3 months. E.g. Folk High School stay or stay abroad experiences (not holidays). Voluntary work equal to 3 months full-time employment can also be included. Documentation in the form of either diplomas, contracts, plane tickets, travel itinerary or certified statements are a requirement.</li>
+                            <li>Grade average from your upper secondary school exam.</li>
+                            <li>Relevant IT courses, e.g.: Adobe Photoshop, Adobe Illustrator, HTML, CSS, Javascript, drawing, animation </li>
+                        </ul>
+                    </div>
+                    <h5 class="adm-elem3">Language Requirements</h5>
+                    <p class="elem-cont hide">
+                        All applicants must have passed English at a level equivalent to a Danish Upper Secondary education B-level.
+                    </p>
+                    <h5 class="adm-elem4">Application Fee</h5>
+                    <p class="elem-cont hide">
+                        Non-EU applicants are required to pay an application fee in order for KEA to process their application.
+                    </p>
+                    <h5 class="adm-elem5">Admission Special Permission</h5>
+                    <p class="elem-cont hide">
+                        If you do not meet the formal admission requirements, you can apply for admission with special permission based on an individual competency assessment (IKV)
+                    </p>
+                </div>
+                <div class="adm-snd-col">
+                    <h5 class="adm-elem6">How to Apply?</h5>
+                    <p class="elem-cont hide">
+                        <b>Summer-intake: </b> All applicants must apply online on <a href="http://www.optagelse.dk/">www.optagelse.dk</a>.
+                        <br>
+                        <b>Winter-intake:</b> All applicants have to apply online <a href="https://pocloudwesteurope.crm.powerobjects.net/powerwebform/powerwebform.aspx?t=vreFsKvp0USJXcTvdEsBvGIAMAA4ADUAYgA3AGIAZQBlADkAYQBiADQANABkADEAOAA5ADUAZABjADQAZQBmADcANAA0AGIAMAAxAGIAYwA%3D&formId=powf_8FA2FFE7BB36E5118110C4346BAD81DC&tver=2013"> here</a>
+                    </p>
+                    <h5 class="adm-elem7">Program Start Summer</h5>
+                    <p class="elem-cont hide">
+                        August 27th 2018
+                    </p>
+                    <h5 class="adm-elem8">Program Start Winter</h5>
+                    <p class="elem-cont hide">
+                        January 29th 2018
+                    </p>
+                    <h5 class="adm-elem9">Application Deadline</h5>
+                    <p class="elem-cont hide">
+                        <b>For summer intake:</b>
+                        <br>All applicants can apply from February 1st.
+                        <br>The deadline for quota 1 admission is July 5th at 12:00 CET. (Danish students only).
+                        <br>The deadline for quota 2 is March 15th at 12:00 CET. (Overseas, European and Danish students).
+                        <br>
+                        <br>
+                        <b>For winter intake:</b>
+                        <br>All applicants can apply from September 15th.
+                        <br>The deadline for overseas students is October 15th at 12:00 CET.
+                        <br>Final answer will be given November 15th.
+                        <br>Deadline for all other students is December 1st at 12:00 CET (both quotas 1 and 2). Final answer will be given December 22nd.
+                    </p>
+                    <h5 class="adm-elem10">Transfer Requirements</h5>
+                    <p class="elem-cont hide">
+                        More information <a href="http://www.kea.dk/en/en/study-at-kea/transfer-to-kea/">here</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- study abroad -->
+    <section id="abroad" class="study-abroad hide">
+        <div class="img-header img-abroad">
+            <p class="title-section">
+                STUDY ABROAD
+            </p>
+        </div>
+
+        <div class="abroad-container">
+
+         <p>KEA has formed partnership agreements with a large number of educational institutions in Europe and overseas. The European institutions are all certified under the ERASMUS charter and are available for study exchange for KEA's students. </p>
+
+            <div class="images-container">
+                <div class="img1"></div>
+                <div class="img2"></div>
+                <div class="img3"></div>
+                <div class="img4"></div>
+            </div>
+
+            <p>Here are a list of just some of the fantastic institutions available for Multimedia Design + Communication. </p>
+
+            <div class="country-container">
+                <div class="country">
+                    <h3> AUSTRALIA</h3>
+                    Melbourne Deakin University
+
+                    <h3>BRAZIL</h3>
+                    Sao Paulo Senac University
+
+                    <h3>CANADA</h3>
+                    Toronto Ryerson University
+
+                    <h3>IRELAND</h3>
+                    Dublin Griffith College
+                </div>
+                <div class="country">
+                    <h3>KOREA </h3>
+                    Seoul Konkuk University
+
+                    <h3>PORTUGAL</h3>
+                    Lisboa IADE
+
+                    <h3>SPAIN </h3>
+                    Barcelona Universitat Ramon Llul ESDI
+
+                    <h3>USA</h3>
+                    Purchase, NY Purchase College (SUNY)
+                </div>
+            </div>
+
+            <p> Having passed the first-year exam, students can choose to complete either the entire programme or parts of it abroad. KEA offers multiple possibilities for international study, including the fourth semester internship. </p>
+
+            <p>According to the 7-point grading scale at the institution where the exam has been taken and is equivalent to a programme element in this curriculum, the grade may be transferred.
+            </p>
+        </div>
+    </section>
+    <!-- student life -->
+    <section id="student" class="student-life hide">
+        <div class="img-header img-life">
+            <p class="title-section">STUDENT LIFE </p>
+        </div>
+        <div class="student-container">
+            <p>The instruction is based on projects, which provide a basis for understanding practice, and the tasks are normally carried out in groups. Classroom instruction is gradually being replaced by advisor-based instruction.</p>
+
+            <p>The project tasks and the final project in particular, are independent tasks that you carry out on the basis of the theory that you have learned. The projects should be based on specific cases from businesses as far as this is possible. You will be given good advice and constructive criticism along the way.</p>
+
+            <p>You must be prepared to make an independent effort and cooperate with your fellow students. The type of instruction gives you experience that you can use for solving both known and new issues. </p>
+
+            <h2>KEA Cafe + Moon Bar</h2>
+
+            <p>Friday bar 14.00-22.00
+                <br>Discounted drinks + endless beer pong + foosball</p>
+
+            <p>Hey! Cafe
+                <br>Join us every Tuesday and Thursday: Studiehuset, Guldbergsgade 29N, 2200 Copenhagen N</p>
+                <div class="instagram">
+                <img src="img/rooftop.jpg" alt="rooftop">
+                <img src="img/present.jpg" alt="presentation">
+                <img src="img/car.jpg" alt="car">
+                <img src="img/bar.jpg" alt="bar">
+                </div>
+                <!--- new photos --->
+
+        </div>
+    </section>
+    <!-- career -->
+    <section id="career" class="career hide">
+
+        <div class="title-career-container">
+            <div>
+                <p class="title-career">
+                    GRADUATION +
+                    <br>FUTURE CAREER </p>
+            </div>
+
+            <div class="img-career"></div>
+        </div>
+
+        <div class="career-container">
+            <h2 class="subtitle-career"> Top-up Your Education</h2>
+            <p>With a Multimedia Design + Communication education you can participate in a higher education programme. You can continue at KEA - Copenhagen School of Design and Technology and choose between: </p>
+
+            <p>BA in Web development (1 ½ year)</p>
+            <p>BA in Design + Business (1 ½ year)</p>
+
+            <h2 class="subtitle-career">From KEA + Beyond</h2>
+
+            <p>As an educated multimedia designer you will typically be able to work with designing, planning and managing multimedia tasks. You will also be able to contribute to the implementation, administration and maintenance of multimedia productions.</p>
+
+        </div>
+    </section>
+    <!-- contact -->
+    <section id="contact" class="contact hide">
+        <div class="img-header img-contact">
+            <p class="title-section">CONTACT</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-more">
+                <p><b>Need to know more?</b>
+                    <br>You are more than welcome to come to our <b>OPEN HOUSE</b> which will happen on 28 Febuary 12 p.m - 6 p.m.
+                    <br><a href="http://keaconnect.dk/en/">Click here</a> for more information.
+                </p>
+            </div>
+            <div class="contact-table">
+                <div class="email">
+                    email:
+                    <input type="email" />
+                    <p><textarea name="comments" cols="50" rows="10">Leave a message
             </textarea></p>
-                <input type="submit" />
-        </div>
-        <div class="advisor">
-            <p><b>Study and Career Advisor</b>
-                <br>Berit Bergman
-                <br>E-mail: berb@kea.dk 
-                <br>Telephone: 46 46 03 28
-                <br>Telephone hours: Monday-Wednesday + Friday 9-11
-            </p>
-        </div>
-        <div class="icons">
-            ICONS
-        </div>
-        <div class="contact-info">
-               <p>
-                <b>Address:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lygten 16, 2400 Copenhagen NV
-            </p>
-               <p>
-                <br><b>Phone number:</b>&nbsp;&nbsp;&nbsp;&nbsp; +45 46 46 04 00
-            </p>
-            <p>
-                <br><b>E-mail:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; kea@kea.dk
-            </p>
+                    <input type="submit" />
+                    <div class="icons">
+                        ICONS
+                    </div>
+                </div>
+                <div class="advisor">
+                    <p><b>Study and Career Advisor</b>
+                        <br>Berit Bergman
+                        <br>E-mail: berb@kea.dk
+                        <br>Telephone: 46 46 03 28
+                        <br>Telephone hours: Monday-Wednesday + Friday 9-11
+                    </p>
+
+                    <div class="contact-info">
+                        <p>
+                            <b>Address:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lygten 16, 2400 Copenhagen NV
+                        </p>
+                        <p>
+                            <br><b>Phone number:</b>&nbsp;&nbsp;&nbsp;&nbsp; +45 46 46 04 00
+                        </p>
+                        <p>
+                            <br><b>E-mail:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; kea@kea.dk
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
-=======
-   <!-- done --> 
-</nav>
-
-<body>
-   <!-- Emily -->
-   <section class="introduction">
-   </section>
-   <!-- Weronika -->
-   <section class="study-program">
-   </section>
-        <!--done-->
-           <div class="modal-production1">
-           </div>
-           <div class="modal-production2">
-           </div>
-           <div class="modal-production3">
-           </div>
-           <div class="modal-electives">
-           </div>
-           <div class="modal-internship">
-           </div>
-           <div class="modal-final-exam">
-           </div>
-           
-           <!-- done -->
-           <div class="modal-business">
-           </div>
-           <div class="modal-communication">
-           </div>
-           <div class="modal-design">
-           </div>
-           <div class="modal-development">
-           </div>
-   <!-- Celia -->    
-   <section class="admission">
-   </section>
-   <!-- Emily -->
-   <section class="study-abroad">
-   </section>
-   <!-- Celia -->
-   <section class="student-life">
-   </section>
-   <!-- Emily -->
-   <section class="career">
-   </section>
-   
-   <!-- Weronika -->
-   <section class="contact">
-   </section>
 
 
 
+    <script src="js/main.js"></script>
 </body>
-
 </html>
