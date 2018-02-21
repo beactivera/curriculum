@@ -138,22 +138,18 @@ nav a {
 }
 
 .intro-container h2 {
-<<<<<<< HEAD
     padding-left: 60px;
     color: gray;
 }
 
 .intro-container p {
     padding: 20px 60px 20px 60px;
-    
-=======
     color: #000000;
 }
 
 .intro-container p {
     padding: 20px 100px 20px 55px;
 
->>>>>>> dfa5ea96d0f1289f1454146e89a7b3bc53ee7971
 }
 
 .img-program {
@@ -275,7 +271,7 @@ button {
 }
 
 .admission-container {
-  margin-left: 190px;
+    margin-left: 190px;
     padding: 20px 110px 20px 45px;
 }
 
@@ -346,7 +342,7 @@ button {
 }
 
 .abroad-container {
-     margin-left: 190px;
+    margin-left: 190px;
     padding: 20px 110px 20px 45px;
 }
 
@@ -407,7 +403,7 @@ button {
 }
 
 .student-container {
-  margin-left: 190px;
+    margin-left: 190px;
     padding: 20px 110px 20px 45px;
 }
 
@@ -504,9 +500,9 @@ input {
     padding-top: 25px;
 }
 
-.instagram{
-    width:100%;
-    display:grid;
+.instagram {
+    width: 100%;
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    padding:80px;
+    padding: 80px;
 }
