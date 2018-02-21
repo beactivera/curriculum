@@ -1,0 +1,457 @@
+/* DESKTOP FIRST */
+
+*{
+  font-family: Helvetica Neue, Arial;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+}
+div{
+    overflow-y: hidden;
+}
+
+/* navigation */
+.logo-front{
+    margin: 5px;
+    padding: 50px;
+    background-image: url(../img/kea-logo_3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+nav{
+    position: fixed;
+    display: block;
+    top:38%;
+    left: 0;
+    height: 60vh;
+    background-color: white;
+
+}
+nav a{
+    padding: 15px;
+    padding-right: 30px;
+    padding-left: 25px;
+    display: block;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+#intro-nav:hover, #program-nav:hover, #adm-nav:hover, #abroad-nav:hover, #student-nav:hover, #career-nav:hover, #contact-nav:hover{
+    color:white;
+    background-color: black;
+}
+
+.active-color{
+    color:white;
+    background-color: black;
+}
+
+/* front section */
+.front-square{
+    position: fixed;
+    top: 0;
+    right: 7vw;
+    width: 70vw;
+    height: 100vh;
+    background-color: #FDEAEA;
+}
+
+.title{
+    padding: 30px;
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 90px;
+    font-family: zillah modern offset;
+}
+
+/* global size for section images */
+.img-header{
+  position: relative;
+   margin-left: 150px;
+   padding: 60px;
+   width: 100vw;
+   height: 9vh;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+.img-intro{
+    background-image: url(../img/red-headers/red-introduction.png);
+}
+
+/* global size for section titles */
+.title-section{
+    position: relative;
+    margin: 0;
+    padding-left: 100px;
+   font-size: 40px;
+    font-weight: 400;
+}
+
+/* introduction */
+.intro-container{
+    margin-left: 190px;
+    padding: 40px;
+}
+
+.intro-container h2{
+    color: gray;
+}
+
+.intro-container p{
+    padding: 10px;
+}
+
+.img-program{
+    background-image: url(../img/red-headers/red-study-program.png);
+}
+
+/* study program */
+
+.study-container{
+    padding: 20px;
+    padding-left: 190px;
+}
+
+.study-content{
+    padding: 50px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: center;
+}
+
+.study-title-2{
+    padding: 10px;
+    text-align: center;
+    font-size: 50px;
+    color: gray;
+}
+
+.cores{
+    text-align: center;
+}
+
+.time{
+    padding: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 15px;
+    padding-left: 30px;
+    text-align: center;
+    grid-gap: 10px;
+}
+
+.year{
+    margin-top: 15px;
+    padding: 18px;
+    grid-column: 1/-1;
+    font-size: 20px;
+    background-color: #DCD9D9;
+}
+
+.semester{
+    padding: 12px;
+    font-size: 15px;
+    background-color: #DCD9D9;
+}
+
+.project{
+    padding: 40px 10px 40px 10px;
+    font-size 12px;
+    background-color: #A79E9E;
+}
+
+
+/* modals in study program */
+
+.modal{
+    /*position: fixed;*/
+    padding-top: 10vh;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    overflow: auto;
+    background: #DCD9D9;
+}
+
+.modal-content{
+    margin: auto;
+    padding: 15px;
+    width: 60vw;
+    height: 60vh;
+    background-color: #F8ECEC;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.modal-title{
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.ects-points{
+    padding: 20px;
+    font-size: 15px;
+}
+
+.description{
+    padding: 20px;
+}
+
+.list-internship{
+    text-align: center;
+    list-style-type: none;
+}
+
+.list-title{
+    padding: 10px;
+    font-size: 20px;
+}
+
+button{
+    padding: 10px;
+    font-size: 15px;
+    justify-content: center;
+    background-color: #F66565;
+}
+
+/* admission */
+
+.img-admission{
+    background-image: url(../img/red-headers/red-admission.png);
+}
+
+.admission-container{
+    padding: 20px;
+    padding-left: 190px;
+}
+
+.admission-desc{
+    padding: 20px;
+}
+
+.admission-desc p{
+    padding: 10px;
+}
+
+.adm-container{
+    display: grid;
+    grid-template-columns: .5fr .5fr;
+    padding: 20px;
+}
+
+.adm-container p{
+    padding: 10px;
+}
+
+.list-adm{
+    list-style-type: disc;
+}
+
+.adm-elem1, .adm-elem2, .adm-elem3, .adm-elem4, .adm-elem5, .adm-elem6, .adm-elem7, .adm-elem8, .adm-elem9, .adm-elem10{
+    margin: 5px;
+    padding: 10px;
+    background-color: #DCD9D9;
+}
+
+.adm-elem1:hover,.adm-elem2:hover,.adm-elem3:hover,.adm-elem4:hover,.adm-elem5:hover,.adm-elem6:hover,.adm-elem7:hover,.adm-elem8:hover,.adm-elem9:hover,.adm-elem10:hover{
+    color: #DCD9D9;
+    background-color: black;
+}
+
+.change-color{
+   color: #DCD9D9;
+    background-color: black;
+}
+
+.hide{
+    display: none;
+}
+
+/* study abroad */
+
+.img-abroad{
+    background-image: url(../img/red-headers/red-study-abroad.png);
+}
+
+.abroad-container{
+    padding: 20px;
+    padding-left: 200px;
+}
+
+.images-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    padding: 50px;
+}
+
+.images-container div{
+    width: 100%;
+    padding: 90px;
+    padding-right: 0;
+    padding-left: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.img1{
+    background-image: url(../img/Griffith.png);
+}
+
+.img2{
+    background-image: url(../img/korea.png);
+}
+
+.img3{
+    background-image: url(../img/lisbon.png);
+}
+
+.img4{
+    background-image: url(../img/napier.png);
+}
+
+.abroad-container p{
+    padding: 15px;
+}
+
+.country-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.country{
+    padding: 20px;
+    text-align: center;
+}
+
+.country h3{
+    color: gray;
+}
+
+/* student life */
+
+.img-life{
+    background-image: url(../img/red-headers/red-student-life.png);
+}
+
+.student-container{
+    padding: 20px;
+    padding-left: 190px;
+}
+
+.student-container p{
+    padding: 20px 90px 20px 90px;
+}
+
+.student-container h2{
+    text-align: center;
+    font-size: 35px;
+    color:gray;
+}
+
+/* career */
+
+.title-career-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.title-career{
+     position: relative;
+    margin: 0;
+    padding: 10px;
+    padding-left: 100px;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.img-career{
+    padding: 80px;
+   background-size: contain;
+   background-repeat: no-repeat;
+    background-image: url(../img/balloon.png)
+}
+
+.career-container{
+    padding: 20px;
+    padding-left: 190px;
+}
+
+.subtitle-career{
+    padding: 30px 100px 30px 100px;
+    font-size: 40px;
+    font-weight: 600;
+    color: gray;
+}
+
+.career-container p{
+    padding: 20px 100px 20px 100px;
+}
+
+/* contact */
+
+.img-contact{
+    background-image: url(../img/red-headers/red-contact.png);
+}
+
+.contact-container{
+    padding: 30px;
+    padding-left: 230px;
+}
+
+.contact-table{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contact-title{
+    text-align: left;
+    padding: 20px;
+    padding-top: 30px;
+    font-size: 50px;
+}
+
+.contact-more{
+    padding: 20px;
+}
+
+.email{
+    padding: 20px;
+    padding-top: 30px;
+}
+
+.icons{
+    padding: 30px;
+}
+
+input{
+    margin: 5px;
+    padding: 5px;
+}
+
+.advisor{
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.contact-info{
+    padding-top: 25px;
+}
+
+.instagram{
+    max-width:100%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    padding:80px
+}
