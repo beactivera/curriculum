@@ -207,6 +207,13 @@ nav a {
     background-color: #A79E9E;
 }
 
+#mmd1-btn:hover, #mmd2-btn:hover, #mmd3-btn:hover,
+#intern-btn:hover, #elect-btn:hover, #final-btn:hover{
+    color:white;
+    background-color: black;
+    transition: all 1.5s;
+}
+
 
 /* modals in study program */
 
