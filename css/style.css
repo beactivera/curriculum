@@ -1,33 +1,37 @@
 /* DESKTOP FIRST */
 
-*{
-  font-family: Nirmala UI;
+* {
+    font-family: Nirmala UI;
     overflow-x: hidden;
     margin: 0;
     padding: 0;
 }
-div{
+
+div {
     overflow-y: hidden;
 }
 
 /* navigation */
-.logo-front{
+
+.logo-front {
     margin: 5px;
     padding: 50px;
     background-image: url(../img/kea-logo_3.jpg);
     background-size: contain;
     background-repeat: no-repeat;
 }
-nav{
+
+nav {
     position: fixed;
     display: block;
-    top:38%;
+    top: 38%;
     left: 0;
     height: 60vh;
     background-color: white;
 
 }
-nav a{
+
+nav a {
     padding: 15px;
     padding-right: 30px;
     padding-left: 25px;
@@ -37,20 +41,30 @@ nav a{
     font-weight: 500;
     text-transform: capitalize;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
-#intro-nav:hover, #program-nav:hover, #adm-nav:hover, #abroad-nav:hover, #student-nav:hover, #career-nav:hover, #contact-nav:hover{
-    color:white;
+#intro-nav:hover,
+#program-nav:hover,
+#adm-nav:hover,
+#abroad-nav:hover,
+#student-nav:hover,
+#career-nav:hover,
+#contact-nav:hover {
+    color: white;
     background-color: black;
+    transition: all 1.5s;
 }
 
-.active-color{
-    color:white;
-    background-color: black;
+.active-color {
+    color: white;
+    background-color: #ff9b9b;
+    opacity: 0.8;
 }
 
 /* front section */
-.front-square{
+
+.front-square {
     position: fixed;
     top: 0;
     right: 7vw;
@@ -59,7 +73,7 @@ nav a{
     background-color: #FDEAEA;
 }
 
-.title{
+.title {
     padding: 30px;
     padding-top: 20px;
     font-weight: 500;
@@ -67,80 +81,83 @@ nav a{
 }
 
 /* global size for section images */
-.img-header{
-  position: relative;
-   margin-left: 150px;
-   padding: 60px;
-   width: 100vw;
-   height: 9vh;
-   background-size: contain;
-   background-repeat: no-repeat; 
+
+.img-header {
+    position: relative;
+    margin-left: 150px;
+    padding: 60px;
+    width: 100vw;
+    height: 9vh;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-.img-intro{
+.img-intro {
     background-image: url(../img/red-headers/red-introduction.png);
 }
 
 /* global size for section titles */
-.title-section{
+
+.title-section {
     position: relative;
     margin: 0;
     padding-left: 100px;
-   font-size: 40px; 
+    font-size: 40px;
     font-weight: 400;
 }
 
 /* introduction */
-.intro-container{
+
+.intro-container {
     margin-left: 190px;
     padding: 40px;
 }
 
-.intro-container h2{
+.intro-container h2 {
     color: gray;
 }
 
-.intro-container p{
+.intro-container p {
     padding: 10px;
 }
 
-.img-program{
+.img-program {
     background-image: url(../img/red-headers/red-study-program.png);
 }
 
 /* study program */
 
-.study-container{
+.study-container {
     padding: 20px;
     padding-left: 190px;
 }
 
-.study-content{
+.study-content {
     padding: 50px;
     padding-left: 100px;
     padding-right: 100px;
     text-align: center;
 }
 
-.study-title-2{
+.study-title-2 {
     padding: 10px;
     text-align: center;
     font-size: 50px;
     color: gray;
 }
 
-.cores{
+.cores {
     text-align: center;
 }
 
-.time{
+.time {
     padding: 20px;
     font-size: 15px;
     font-weight: bold;
     text-align: center;
 }
 
-.table{
+.table {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 15px;
@@ -149,7 +166,7 @@ nav a{
     grid-gap: 10px;
 }
 
-.year{
+.year {
     margin-top: 15px;
     padding: 18px;
     grid-column: 1/-1;
@@ -157,13 +174,13 @@ nav a{
     background-color: #DCD9D9;
 }
 
-.semester{
+.semester {
     padding: 12px;
     font-size: 15px;
     background-color: #DCD9D9;
 }
 
-.project{
+.project {
     padding: 40px 10px 40px 10px;
     font-size 12px;
     background-color: #A79E9E;
@@ -172,7 +189,7 @@ nav a{
 
 /* modals in study program */
 
-.modal{
+.modal {
     /*position: fixed;*/
     padding-top: 10vh;
     width: 100vw;
@@ -183,7 +200,7 @@ nav a{
     background: #DCD9D9;
 }
 
-.modal-content{
+.modal-content {
     margin: auto;
     padding: 15px;
     width: 60vw;
@@ -193,32 +210,32 @@ nav a{
     overflow-x: hidden;
 }
 
-.modal-title{
+.modal-title {
     padding: 30px;
     font-size: 30px;
     text-align: center;
 }
 
-.ects-points{
+.ects-points {
     padding: 20px;
     font-size: 15px;
 }
 
-.description{
+.description {
     padding: 20px;
 }
 
-.list-internship{
+.list-internship {
     text-align: center;
     list-style-type: none;
 }
 
-.list-title{
+.list-title {
     padding: 10px;
     font-size: 20px;
 }
 
-button{
+button {
     padding: 10px;
     font-size: 15px;
     justify-content: center;
@@ -227,76 +244,94 @@ button{
 
 /* admission */
 
-.img-admission{
+.img-admission {
     background-image: url(../img/red-headers/red-admission.png);
 }
 
-.admission-container{
+.admission-container {
     padding: 20px;
     padding-left: 190px;
 }
 
-.admission-desc{
+.admission-desc {
     padding: 20px;
 }
 
-.admission-desc p{
+.admission-desc p {
     padding: 10px;
 }
 
-.adm-container{
+.adm-container {
     display: grid;
     grid-template-columns: .5fr .5fr;
     padding: 20px;
 }
 
-.adm-container p{
+.adm-container p {
     padding: 10px;
 }
 
-.list-adm{
+.list-adm {
     list-style-type: disc;
 }
 
-.adm-elem1, .adm-elem2, .adm-elem3, .adm-elem4, .adm-elem5, .adm-elem6, .adm-elem7, .adm-elem8, .adm-elem9, .adm-elem10{
+.adm-elem1,
+.adm-elem2,
+.adm-elem3,
+.adm-elem4,
+.adm-elem5,
+.adm-elem6,
+.adm-elem7,
+.adm-elem8,
+.adm-elem9,
+.adm-elem10 {
     margin: 5px;
     padding: 10px;
     background-color: #DCD9D9;
 }
 
-.adm-elem1:hover,.adm-elem2:hover,.adm-elem3:hover,.adm-elem4:hover,.adm-elem5:hover,.adm-elem6:hover,.adm-elem7:hover,.adm-elem8:hover,.adm-elem9:hover,.adm-elem10:hover{
+.adm-elem1:hover,
+.adm-elem2:hover,
+.adm-elem3:hover,
+.adm-elem4:hover,
+.adm-elem5:hover,
+.adm-elem6:hover,
+.adm-elem7:hover,
+.adm-elem8:hover,
+.adm-elem9:hover,
+.adm-elem10:hover {
     color: #DCD9D9;
     background-color: black;
 }
 
-.change-color{
-   color: #DCD9D9;
-    background-color: black; 
+.change-color {
+    color: #DCD9D9;
+    background-color: black;
 }
 
-.hide{
+.hide {
     display: none;
 }
 
 /* study abroad */
 
-.img-abroad{
+.img-abroad {
     background-image: url(../img/red-headers/red-study-abroad.png);
 }
 
-.abroad-container{
+.abroad-container {
     padding: 20px;
     padding-left: 200px;
 }
 
-.images-container{
+.images-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
     padding: 50px;
 }
 
-.images-container div{
+.images-container div {
     width: 100%;
     padding: 90px;
     padding-right: 0;
@@ -304,147 +339,146 @@ button{
     background-size: contain;
     background-repeat: no-repeat;
 }
-.img1{
+
+.img1 {
     background-image: url(../img/Griffith.png);
 }
 
-.img2{
+.img2 {
     background-image: url(../img/korea.png);
 }
 
-.img3{
+.img3 {
     background-image: url(../img/lisbon.png);
 }
 
-.img4{
+.img4 {
     background-image: url(../img/napier.png);
 }
 
-.abroad-container p{
+.abroad-container p {
     padding: 15px;
 }
 
-.country-container{
+.country-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.country{
+.country {
     padding: 20px;
     text-align: center;
 }
 
-.country h3{
+.country h3 {
     color: gray;
 }
 
 /* student life */
 
-.img-life{
+.img-life {
     background-image: url(../img/red-headers/red-student-life.png);
 }
 
-.student-container{
+.student-container {
     padding: 20px;
     padding-left: 190px;
 }
 
-.student-container p{
+.student-container p {
     padding: 20px 90px 20px 90px;
 }
 
-.student-container h2{
+.student-container h2 {
     text-align: center;
     font-size: 35px;
 }
 
 /* career */
 
-.title-career-container{
+.title-career-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.title-career{
-     position: relative;
+.title-career {
+    position: relative;
     margin: 0;
     padding: 10px;
     padding-left: 100px;
-    font-size: 50px; 
+    font-size: 50px;
     font-weight: 400;
 }
 
-.img-career{
+.img-career {
     padding: 80px;
-   background-size: contain;
-   background-repeat: no-repeat; 
+    background-size: contain;
+    background-repeat: no-repeat;
     background-image: url(../img/balloon.png)
 }
 
-.career-container{
+.career-container {
     padding: 20px;
     padding-left: 190px;
 }
 
-.subtitle-career{
+.subtitle-career {
     padding: 30px 100px 30px 100px;
     font-size: 40px;
     font-weight: 600;
     color: gray;
 }
 
-.career-container p{
+.career-container p {
     padding: 20px 100px 20px 100px;
 }
 
 /* contact */
 
-.img-contact{
+.img-contact {
     background-image: url(../img/red-headers/red-contact.png);
 }
 
-.contact-container{
+.contact-container {
     padding: 30px;
     padding-left: 230px;
 }
 
-.contact-table{
+.contact-table {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 
-.contact-title{
+.contact-title {
     text-align: left;
     padding: 20px;
     padding-top: 30px;
     font-size: 50px;
 }
 
-.contact-more{
+.contact-more {
     padding: 20px;
 }
 
-.email{
+.email {
     padding: 20px;
     padding-top: 30px;
 }
 
-.icons{
+.icons {
     padding: 30px;
 }
 
-input{
+input {
     margin: 5px;
     padding: 5px;
 }
 
-.advisor{
+.advisor {
     padding: 10px;
     padding-top: 30px;
 }
 
-.contact-info{
+.contact-info {
     padding-top: 25px;
 }
-
-
