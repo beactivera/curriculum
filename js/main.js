@@ -8,6 +8,14 @@ let studentBtn = document.getElementById('student-nav');
 let careerBtn = document.getElementById('career-nav');
 let contactBtn = document.getElementById('contact-nav');
 
+//// reload website
+
+let titleBtn = document.querySelector('.nav-title');
+titleBtn.addEventListener('click', reloadPage)
+function reloadPage(){
+    location.reload();
+}
+
 //introduction
 introBtn.addEventListener('click', showIntro)
 

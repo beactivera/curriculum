@@ -30,9 +30,9 @@ div {
 nav {
     position: fixed;
     display: block;
-    top: 38%;
+    top: 20%;
     left: 0;
-    height: 60vh;
+    height: 80vh;
     background-color: white;
     padding: 25px;
 }
@@ -48,6 +48,14 @@ nav a {
     text-transform: capitalize;
     text-decoration: none;
     text-transform: uppercase;
+}
+
+.nav-title{
+    font-size: 70px;
+    text-transform: capitalize;
+    font-weight: 400;
+    text-align: center;
+    color: #140D0D;
 }
 
 #intro-nav:hover,
