@@ -456,7 +456,7 @@ button {
     padding: 20px 110px 20px 45px; 
 }
 
-.contact-container p{
+.contact-desc{
     padding-left: 60px;
 }
 
@@ -464,17 +464,6 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 40px;
-}
-
-.contact-title {
-    text-align: left;
-    padding: 20px;
-    padding-top: 30px;
-    font-size: 50px;
-}
-
-.contact-more {
-    padding: 20px;
 }
 
 .email {
