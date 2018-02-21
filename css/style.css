@@ -83,7 +83,7 @@ nav a {
     padding-top: 20px;
     font-weight: 500;
     font-size: 50px;
-    font-family: "acier-bat-noir", 'Bungee Shade', 'Bungee';
+    font-family: 'Archivo Black', 'Bungee Shade', 'Bungee';
     letter-spacing: 5px;
 }
 
@@ -118,7 +118,8 @@ nav a {
     padding-left: 125px;
     font-size: 40px;
     font-weight: 400;
-    font-family: 'Bungee';
+    font-family: 'Archivo Black', sans-serif;
+    color: black;
 }
 
 /* global size for subtitles section */
@@ -168,6 +169,12 @@ nav a {
 
 .cores {
     text-align: center;
+}
+
+.cores img {
+    max-width: 150px;
+    padding: 10px;
+    margin: 20px;
 }
 
 .time {
@@ -452,11 +459,11 @@ button {
 }
 
 .contact-container {
-   margin-left: 190px;
-    padding: 20px 110px 20px 45px; 
+    margin-left: 190px;
+    padding: 20px 110px 20px 45px;
 }
 
-.contact-desc{
+.contact-desc {
     padding-left: 60px;
 }
 
@@ -475,9 +482,14 @@ button {
     padding: 30px;
 }
 
+.icons img {
+    max-width: 200px;
+}
+
 input {
     margin: 5px;
     padding: 5px;
+    border-style: none;
 }
 
 .advisor {
@@ -489,7 +501,7 @@ input {
     padding-top: 25px;
 }
 
-.contact-info p{
+.contact-info p {
     padding: 7px;
     padding-left: 20px;
 }
@@ -499,4 +511,8 @@ input {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 80px;
+}
+
+footer {
+    padding: 10px;
 }
