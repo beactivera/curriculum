@@ -172,6 +172,15 @@ function showContact(){
 
 /////// modals plus json ////////
 
+//
+//fetch("cores.json").then(result => result.json()).then(data => show(data));
+//
+//function show(cores){
+//    cores.forEach( core => {
+//      console.log(core); 
+//    });
+//}
+
 
 /////// admission buttoms ///////
 
