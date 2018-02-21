@@ -139,22 +139,17 @@ nav a {
 }
 
 .intro-container h2 {
-<<<<<<< HEAD
     padding-left: 60px;
     color: gray;
 }
 
 .intro-container p {
     padding: 20px 60px 20px 60px;
-    
-=======
     color: #000000;
 }
 
 .intro-container p {
     padding: 20px 100px 20px 55px;
-
->>>>>>> dfa5ea96d0f1289f1454146e89a7b3bc53ee7971
 }
 
 .img-program {
