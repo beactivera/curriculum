@@ -3,21 +3,33 @@
 * {
     font-family: Nirmala UI;
     overflow-x: hidden;
-    margin: 0;
+}
+
+body{
+     margin: 0;
     margin-left: 40px;
     margin-right: 40px;
     padding: 0;
 }
 
+<<<<<<< HEAD
 div {
+=======
+div{
+>>>>>>> 0d3cd7914a74e5126df05aafcc2f3f8d5ca93374
     overflow-y: hidden;
 }
 
 /* navigation */
+<<<<<<< HEAD
 
 .logo-front {
+=======
+.logo-front{
+    position: fixed;
+>>>>>>> 0d3cd7914a74e5126df05aafcc2f3f8d5ca93374
     margin: 5px;
-    padding: 50px;
+    padding: 90px;
     background-image: url(../img/kea-logo_3.jpg);
     background-size: contain;
     background-repeat: no-repeat;
@@ -83,6 +95,7 @@ nav a {
 }
 
 /* global size for section images */
+<<<<<<< HEAD
 
 .img-header {
     position: relative;
@@ -92,6 +105,19 @@ nav a {
     height: 9vh;
     background-size: contain;
     background-repeat: no-repeat;
+=======
+.img-header{
+display: grid;
+    grid-column: 1/-1;
+   position: relative;
+    margin-top: 90px;
+    margin-left: 190px;
+    padding: 70px;
+   width: 100vw;
+   height: 9vh;
+   background-size: contain;
+   background-repeat: no-repeat; 
+>>>>>>> 0d3cd7914a74e5126df05aafcc2f3f8d5ca93374
 }
 
 .img-intro {
