@@ -13,14 +13,12 @@ let contactBtn = document.getElementById('contact-nav');
 
 let titleBtn = document.querySelector('.nav-title');
 titleBtn.addEventListener('click', reloadPage)
-
 function reloadPage() {
     location.reload();
 }
 
 //introduction
 introBtn.addEventListener('click', showIntro)
-
 function showIntro() {
     // highlight buttom
     introBtn.classList.add('active-color');
@@ -28,6 +26,8 @@ function showIntro() {
     admBtn.classList.remove('active-color');
     abroadBtn.classList.remove('active-color');
     studentBtn.classList.remove('active-color');
+
+
     topBtn.classList.remove('active-color');
     careerBtn.classList.remove('active-color');
     contactBtn.classList.remove('active-color');
@@ -95,7 +95,6 @@ function showAdmission() {
 
 //abroad
 abroadBtn.addEventListener('click', showAbroad)
-
 function showAbroad() {
     // highlight buttom
     introBtn.classList.remove('active-color');
@@ -220,14 +219,112 @@ function showContact() {
 
 
 /////// modals from json ////////
+const modal = document.getElementById('core-modal');
+const businessBtn = document.getElementById('business-btn');
+businessBtn.addEventListener("click", showModal);
+const commBtn = document.getElementById('comm-btn');
+commBtn.addEventListener("click", showModal);
+const designBtn = document.getElementById('design-btn');
+designBtn.addEventListener("click", showModal);
+const devBtn = document.getElementById('dev-btn');
+devBtn.addEventListener("click", showModal);
 
-//fetch("cores.json").then(result => result.json()).then(data => show(data));
-//
-//function show(cores){
-//    cores.forEach( core => {
-//      console.log(core); 
-//    });
-//}
+function showModal(e) {
+    console.log()
+    fetch("cores.json").then(result => result.json()).then(data => show(data, e.target.id));
+}
+
+function show(cores, which) {
+    console.log(which);
+    if (which == "business-btn") {
+        modal.querySelector('.modal-title').textContent = cores[0].title;
+        modal.querySelector('.ects-points').textContent = cores[0].ects + " ECTS";
+        modal.querySelector('.description').textContent = cores[0].description;
+        for (let i = 0; i < cores[0].knowledge.length; i++) {
+            const li = document.createElement('li');
+            li.textContent = cores[0].knowledge[i];
+            modal.querySelector('.knowledge').appendChild(li);
+        }
+        for (let i = 0; i < cores[0].skills.length; i++) {
+            const li = document.createElement('li');
+            li.textContent = cores[0].skills[i];
+            modal.querySelector('.skills').appendChild(li);
+        }
+        for (let i = 0; i < cores[0].competencies.length; i++) {
+            const li = document.createElement('li');
+            li.textContent = cores[0].competencies[i];
+            modal.querySelector('.competencies').appendChild(li);
+        }
+    }
+    if (which == "comm-btn") {
+        modal.querySelector('.modal-title').textContent = cores[1].title;
+        modal.querySelector('.ects-points').textContent = cores[1].ects + " ECTS";
+        modal.querySelector('.description').textContent = cores[1].description;
+        for (let i = 0; i < cores[1].knowledge.length; i++) {
+            const li = document.createElement('li');
+            li.textContent = cores[1].knowledge[i];
+            modal.querySelector('.knowledge').appendChild(li);
+        }
+        for (let i = 0; i < cores[1].skills.length; i++) {
+            const li = document.createElement('li');
+            li.textContent = cores[1].skills[i];
+            modal.querySelector('.skills').appendChild(li);
+        }
+        for (let i = 0; i < cores[1].competencies.length; i++) {
+            const li = document.createElement('li');
+            li.textContent = cores[1].competencies[i];
+            modal.querySelector('.competencies').appendChild(li);
+        }
+    }
+    if (which == "design-btn") {
+        modal.querySelector('.modal-title').textContent = cores[2].title;
+        modal.querySelector('.ects-points').textContent = cores[2].ects + " ECTS";
+        modal.querySelector('.description').textContent = cores[2].description;
+        for (let i = 0; i < cores[2].knowledge.length; i++) {
+            const li = document.createElement('li');
+            li.textContent = cores[2].knowledge[i];
+            modal.querySelector('.knowledge').appendChild(li);
+        }
+        for (let i = 0; i < cores[2].skills.length; i++) {
+            const li = document.createElement('li');
+            li.textContent = cores[2].skills[i];
+            modal.querySelector('.skills').appendChild(li);
+        }
+        for (let i = 0; i < cores[2].competencies.length; i++) {
+            const li = document.createElement('li');
+            li.textContent = cores[2].competencies[i];
+            modal.querySelector('.competencies').appendChild(li);
+        }
+    }
+    if (which == "dev-btn") {
+        modal.querySelector('.modal-title').textContent = cores[3].title;
+        modal.querySelector('.ects-points').textContent = cores[3].ects + " ECTS";
+        modal.querySelector('.description').textContent = cores[3].description;
+        for (let i = 0; i < cores[3].knowledge.length; i++) {
+            const li = document.createElement('li');
+            li.textContent = cores[3].knowledge[i];
+            modal.querySelector('.knowledge').appendChild(li);
+        }
+        for (let i = 0; i < cores[3].skills.length; i++) {
+            const li = document.createElement('li');
+            li.textContent = cores[3].skills[i];
+            modal.querySelector('.skills').appendChild(li);
+        }
+        for (let i = 0; i < cores[3].competencies.length; i++) {
+            const li = document.createElement('li');
+            li.textContent = cores[3].competencies[i];
+            modal.querySelector('.competencies').appendChild(li);
+        }
+    }
+
+    modal.classList.remove('hide');
+}
+
+document.getElementById('close').addEventListener('click', closeModal);
+
+function closeModal() {
+    modal.classList.add('hide');
+}
 
 
 /////// modals ///////
