@@ -153,60 +153,9 @@ nav a {
     color: black;
 }
 
-/* global size for subtitles section */
-
-.sub-section {
-    padding-left: 60px;
-    font-weight: 600;
-    color: black;
-}
-
 /* introduction */
 
-.intro-container {
-    margin-left: 190px;
-    padding: 20px 110px 20px 45px;
-}
-
-.intro-container h2 {
-    padding-left: 60px;
-    color: black;
-}
-
-.intro-container p {
-    padding: 20px 60px 20px 60px;
-    color: #000000;
-}
-
-.intro-container p {
-    padding: 20px 100px 20px 55px;
-
-}
-
-/*.img-program {
-    background-image: url(../img/red-headers/red-study-program.png);
-}*/
-
 /* study program */
-
-.study-container {
-    margin-left: 190px;
-    padding: 20px 110px 20px 45px;
-}
-
-.study-content {
-    padding: 0px 40px 0px 60px;
-}
-
-.cores {
-    text-align: center;
-}
-
-.cores img {
-    max-width: 150px;
-    padding: 10px;
-    margin: 20px;
-}
 
 .time {
     padding: 20px;
@@ -347,19 +296,6 @@ button {
     background-image: url(../img/red-headers/red-admission.png);
 }*/
 
-.admission-container {
-    margin-left: 190px;
-    padding: 20px 110px 20px 45px;
-}
-
-.admission-desc {
-    padding: 20px 40px 20px 50px;
-}
-
-.admission-desc p {
-    padding: 10px;
-}
-
 .adm-container {
     display: grid;
     grid-template-columns: .5fr .5fr;
@@ -419,47 +355,6 @@ button {
     background-image: url(../img/red-headers/red-study-abroad.png);
 }*/
 
-.abroad-container {
-    margin-left: 190px;
-    padding: 20px 110px 20px 45px;
-}
-
-.images-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
-    padding-left: 70px;
-}
-
-.images-container div {
-    width: 100%;
-    padding: 90px;
-    padding-right: 0;
-    padding-left: 0;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.img1 {
-    background-image: url(../img/Griffith.png);
-}
-
-.img2 {
-    background-image: url(../img/korea.png);
-}
-
-.img3 {
-    background-image: url(../img/lisbon.png);
-}
-
-.img4 {
-    background-image: url(../img/napier.png);
-}
-
-.abroad-container p {
-    padding: 15px 40px 15px 60px;
-}
-
 .country-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -480,97 +375,15 @@ button {
     background-image: url(../img/red-headers/red-student-life.png);
 }*/
 
-.student-container {
-    margin-left: 190px;
-    padding: 20px 110px 20px 45px;
-}
-
-.student-container p {
-    padding: 15px 55px 15px 60px;
-}
-
 /* top up */
 
-.title-top-container {
-    margin-top: 110px;
-    margin-left: 190px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.title-top {
-    position: relative;
-    margin: 0;
-    padding: 10px;
-    padding-left: 100px;
-    font-size: 50px;
-    font-weight: 400;
-}
-
-.img-top {
-    padding: 80px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(../img/balloon.png)
-}
-
-.top-container {
-    margin-left: 190px;
-    padding: 20px 110px 20px 45px;
-}
-
-.top-container p {
-    padding: 10px 60px 10px 60px;
-}
-
 /* career */
-
-.title-career-container {
-    margin-top: 110px;
-    margin-left: 190px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.title-career {
-    position: relative;
-    margin: 0;
-    padding: 10px;
-    padding-left: 100px;
-    font-size: 50px;
-    font-weight: 400;
-}
-
-.img-career {
-    padding: 80px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(../img/balloon.png)
-}
-
-.career-container {
-    margin-left: 190px;
-    padding: 20px 110px 20px 45px;
-}
-
-.career-container p {
-    padding: 10px 60px 10px 60px;
-}
 
 /* contact */
 
 /*.img-contact {
     background-image: url(../img/red-headers/red-contact.png);
 }*/
-
-.contact-container {
-    margin-left: 190px;
-    padding: 20px 110px 20px 45px;
-}
-
-.contact-desc {
-    padding-left: 60px;
-}
 
 .contact-table {
     display: grid;
@@ -596,27 +409,6 @@ input {
     margin: 5px;
     padding: 5px;
     border-style: none;
-}
-
-.advisor {
-    padding: 10px;
-    padding-top: 20px;
-}
-
-.contact-info {
-    padding-top: 25px;
-}
-
-.contact-info p {
-    padding: 7px;
-    padding-left: 20px;
-}
-
-.instagram div {
-    width: 100px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 80px;
 }
 
 footer {
