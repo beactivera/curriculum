@@ -1,7 +1,7 @@
 /* DESKTOP FIRST */
 
 * {
-    font-family: Nirmala UI, Helvetica, arial, sans-serif;
+    font-family: arial, Nirmala UI, Helvetica, arial, sans-serif;
     overflow-x: hidden;
 }
 
@@ -48,14 +48,16 @@ nav a {
     text-transform: capitalize;
     text-decoration: none;
     text-transform: uppercase;
+    font-family: sans-serif;
 }
 
-.nav-title{
+.nav-title {
     font-size: 70px;
     text-transform: capitalize;
     font-weight: 400;
     text-align: center;
     color: #140D0D;
+    font-family: 'Archivo Black', 'Bungee Shade', 'Bungee', sans-serif;
 }
 
 #intro-nav:hover,
@@ -91,7 +93,7 @@ nav a {
     padding-top: 20px;
     font-weight: 500;
     font-size: 50px;
-    font-family: 'Archivo Black', 'Bungee Shade', 'Bungee';
+    font-family: 'Archivo Black', 'Bungee Shade', 'Bungee', sans-serif;
     letter-spacing: 5px;
 }
 
@@ -554,8 +556,8 @@ input {
     padding-left: 20px;
 }
 
-.instagram {
-    width: 100%;
+.instagram div {
+    width: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 80px;
