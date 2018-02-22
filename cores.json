@@ -1,5 +1,5 @@
 [
-        {
+      {
             "title": "Business",
             "ects": 15,
             "description": "The core area is intended to provide the students with the necessary qualifications to understand the commercial framework of the business and digital business models, apply digital user data and take an innovative approach to multimedia production.",
@@ -14,17 +14,16 @@
                 
             ]
         },
-        
-        {
+    {
             "title": "Communication and Presentation",
             "ects": 15,
-            "description":" The core area is intended to enable the students to understand digital media and create innovative digital user experiences.",
+            "description":"The core area is intended to enable the students to understand digital media and create innovative digital user experiences.",
             "knowledge":[
-                "user understanding and content production, including information architecture for digital media", "digital user experiences in relation to multimedia production, including test methods", "international digital trends and the use of digital media and technologies by different user groups", "planning user interaction and communication in various productions."
+                "user understanding and content production including information architecture for digital media", "digital user experiences in relation to multimedia production, including test methods", "international digital trends and the use of digital media and technologies by different user groups", "planning user interaction and communication in various productions."
             ],
-            skills:[
+            "skills":[
                 "combine and apply key methods for planning and producing user-oriented content in team-based multimedia productions",
-                "apply key theory, method and tools to support digital user experiences", "transform knowledge of current digital user trends into planning and development of user experiences",
+                "apply key theory with method and tools to support digital user experiences", "transform knowledge of current digital user trends into planning and development of user experiences",
                 "assess, adjust and present solutions for innovative communication in advanced digital media productions." 
             ],
             "competencies":[
@@ -32,8 +31,7 @@
             ]
             
         },
-        
-        {
+     {
             "title": "Design and Visualisation",
             "ects": 25,
             "description":"The core area is intended to enable the students to design and develop advanced digital user interfaces based on user-oriented design principles and incorporating international development trends within digital design.",
@@ -47,7 +45,6 @@
                 "handle different types of material for the production of digital user interfaces", "handle process documentation and communication in relation to stakeholders", "participate in teams and manage the design and development of digital user interfaces", "independently keep up to date and acquire new knowledge within international design trends, innovative technologies and advanced digital user interfaces."
             ]
         },
-        
         {
             "title": "Interaction Development",
             "ects": 25,
