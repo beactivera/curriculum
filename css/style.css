@@ -362,8 +362,8 @@ button {
     padding: 10px;
 }
 
-.list-adm {
-    list-style-type: disc;
+.list-adm li{
+    padding: 10px;
 }
 
 .adm-elem1,
@@ -394,6 +394,7 @@ button {
     color: white;
     background-color: black;
     cursor: pointer;
+    
 }
 
 .change-color {
