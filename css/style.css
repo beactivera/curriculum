@@ -114,9 +114,9 @@ nav a {
     background-repeat: no-repeat;
 }
 
-.img-intro {
+/*.img-intro {
     background-image: url(../img/red-headers/red-introduction.png);
-}
+}*/
 
 /* global size for section titles */
 
@@ -162,9 +162,9 @@ nav a {
 
 }
 
-.img-program {
+/*.img-program {
     background-image: url(../img/red-headers/red-study-program.png);
-}
+}*/
 
 /* study program */
 
@@ -322,9 +322,9 @@ button {
 
 /* admission */
 
-.img-admission {
+/*.img-admission {
     background-image: url(../img/red-headers/red-admission.png);
-}
+}*/
 
 .admission-container {
     margin-left: 190px;
@@ -394,9 +394,9 @@ button {
 
 /* study abroad */
 
-.img-abroad {
+/*.img-abroad {
     background-image: url(../img/red-headers/red-study-abroad.png);
-}
+}*/
 
 .abroad-container {
     margin-left: 190px;
@@ -455,9 +455,9 @@ button {
 
 /* student life */
 
-.img-life {
+/*.img-life {
     background-image: url(../img/red-headers/red-student-life.png);
-}
+}*/
 
 .student-container {
     margin-left: 190px;
@@ -504,9 +504,9 @@ button {
 
 /* contact */
 
-.img-contact {
+/*.img-contact {
     background-image: url(../img/red-headers/red-contact.png);
-}
+}*/
 
 .contact-container {
     margin-left: 190px;
