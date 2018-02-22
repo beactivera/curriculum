@@ -279,14 +279,15 @@ nav a {
 }
 
 .modal-title {
-    padding: 20px;
-    font-size: 30px;
+    padding: 0;
+    font-size: 40px;
     text-align: center;
 }
 
 .ects-points {
-    padding: 15px;
+    padding: 0;
     font-size: 15px;
+    text-align: center;
 }
 
 .close {
@@ -300,7 +301,19 @@ nav a {
 }
 
 .description {
-    padding: 30px;
+    padding: 20px 50px 20px 50px;
+}
+
+.knowledge, .skills, .competencies{
+    padding: 20px 50px 20px 50px;
+}
+
+.knowledge li, .skills li, .competencies li{
+    padding: 5px;
+}
+
+.cat-title{
+    font-weight: bold;
 }
 
 .list-internship {
@@ -349,8 +362,8 @@ button {
     padding: 10px;
 }
 
-.list-adm {
-    list-style-type: disc;
+.list-adm li{
+    padding: 10px;
 }
 
 .adm-elem1,
@@ -381,6 +394,7 @@ button {
     color: white;
     background-color: black;
     cursor: pointer;
+    
 }
 
 .change-color {
