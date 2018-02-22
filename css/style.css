@@ -32,9 +32,19 @@ body {
 }
 
 .circle {
-    max-width: 130px;
-    padding-left: 1em;
-    padding-right: 1em;
+    max-width: 120px;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 100%;
+    margin: 4px 2px;
+    padding: 20px;
+}
+
+.circle:hover {
+    color: white;
+    background-color: #FFACA3;
+    transition: all 1s;
+    cursor: pointer;
 }
 
 .student-life-img {
@@ -52,12 +62,12 @@ h1 {
     margin: 0;
     font-size: 35px;
     font-family: 'Lato', 'Montserrat Subrayada', sans-serif;
-    text-shadow: 4px 4px #f4e0fc;
+    text-shadow: 4px 4px #FFE8E6;
+    color: #F8817B;
 }
 
 p a {
     text-decoration: none;
-    color:
 }
 
 div {
@@ -89,6 +99,8 @@ div {
     right: 0px;
     padding-right: 7em;
     padding-top: 5px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 /* LOCAL navigation */
@@ -155,7 +167,7 @@ label {
 
 .active-color {
     color: white;
-    background-color: #da291c;
+    background-color: #F8817B
 }
 
 /* front section */
@@ -163,7 +175,7 @@ label {
 .front-square {
     position: fixed;
     top: 0;
-    right: 7vw;
+    right: 10vw;
     width: 70vw;
     height: 100vh;
 }
@@ -199,6 +211,11 @@ label {
 
 /* introduction */
 
+.intro-img {
+    max-width: 200px;
+    padding: 0.3em;
+}
+
 /* study program */
 
 .time {
@@ -211,8 +228,6 @@ label {
 .table {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-left: 60px;
-    margin-right: 50px;
     text-align: center;
     grid-gap: 10px;
 }
@@ -235,7 +250,7 @@ label {
 .project {
     padding: 40px 10px 40px 10px;
     font-size 12px;
-    background-color: #A79E9E;
+    background-color: #FFACA3;
 }
 
 #mmd1-btn:hover,
@@ -245,8 +260,8 @@ label {
 #elect-btn:hover,
 #final-btn:hover {
     color: white;
-    background-color: black;
-    transition: all 1.5s;
+    background-color: #F8817B;
+    transition: all 0.3s;
     cursor: pointer;
 }
 
@@ -318,15 +333,19 @@ label {
     padding: 20px 50px 20px 50px;
 }
 
-.knowledge, .skills, .competencies{
+.knowledge,
+.skills,
+.competencies {
     padding: 20px 50px 20px 50px;
 }
 
-.knowledge li, .skills li, .competencies li{
+.knowledge li,
+.skills li,
+.competencies li {
     padding: 5px;
 }
 
-.cat-title{
+.cat-title {
     font-weight: bold;
 }
 
@@ -344,7 +363,7 @@ button {
     padding: 10px;
     font-size: 15px;
     justify-content: center;
-    background-color: #F66565;
+    background-color: #FFACA3;
 }
 
 /* admission */
@@ -356,14 +375,14 @@ button {
 .adm-container {
     display: grid;
     grid-template-columns: .5fr .5fr;
-    padding: 20px 40px 20px 50px;
+    /*padding: 20px 40px 20px 50px;*/
 }
 
 .adm-container p {
     padding: 10px;
 }
 
-.list-adm li{
+.list-adm li {
     padding: 10px;
 }
 
@@ -379,7 +398,7 @@ button {
 .adm-elem10 {
     margin: 5px;
     padding: 15px;
-    background-color: #DCD9D9;
+    background-color: #FFACA3;
 }
 
 .adm-elem1:hover,
@@ -393,9 +412,9 @@ button {
 .adm-elem9:hover,
 .adm-elem10:hover {
     color: white;
-    background-color: black;
+    background-color: #F8817B;
     cursor: pointer;
-    
+
 }
 
 .change-color {
@@ -433,11 +452,14 @@ button {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 40px;
+    overflow: hidden;
 }
 
 .email {
     padding: 20px;
     padding-top: 30px;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .search {
@@ -474,6 +496,7 @@ button {
 textarea {
     max-width: 400px;
     max-height: 120px;
+    overflow: hidden;
 }
 
 
@@ -509,11 +532,7 @@ footer {
         max-width: 50px;
     }
     h1 {
-        position: relative;
-        margin: 0;
         font-size: 30px;
-        font-family: 'Lato', 'Montserrat Subrayada', sans-serif;
-        text-shadow: 4px 4px #f4e0fc;
     }
 
     h2 {
@@ -582,7 +601,7 @@ footer {
 
     label {
         cursor: pointer;
-        color: #cc4f31;
+        color: #F8817B;
         display: block;
         padding: 0;
         left: 0;
@@ -608,7 +627,7 @@ footer {
         left: 0;
         height: 70vh;
         padding: 0;
-        background-color: pink;
+        background: linear-gradient(#FFACA3, #FFA39D, #FF9C96, #FF8B81, #F8817B);
     }
 
     .local nav a {
@@ -634,7 +653,7 @@ footer {
     text-align: center;
     color: #140D0D;
     font-family: 'Lato', sans-serif;
-    text-shadow: 2px 2px #f4e0fc;
+    text-shadow: 2px 2px #F8817B;
 }
 
 #intro-nav:hover,
@@ -646,13 +665,13 @@ footer {
 #career-nav:hover,
 #contact-nav:hover {
     color: white;
-    background-color: #f4e0fc;
+    background-color: #FFACA3;
     transition: all 0.3s;
 }
 
 .active-color {
     color: white;
-    background-color: #da291c;
+    background-color: #F8817B;
 }
 
 }
