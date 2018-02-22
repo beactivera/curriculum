@@ -3,7 +3,7 @@
 /* GLOBAL SETTINGS */
 
 * {
-    font-family: 'Open Sans', arial, sans-serif;
+    font-family: 'Open Sans', arial, helvetica, sans-serif;
     overflow-x: hidden;
     background-image: url("paper.gif");
 }
@@ -93,13 +93,25 @@ div {
 
 /* LOCAL navigation */
 
+/*.hide-burger {
+    display: none;
+}*/
+
+input {
+    display: none;
+}
+
+label {
+    display: none;
+}
+
 .local-nav {
     position: fixed;
     display: block;
     top: 20%;
     left: 0;
     height: 80vh;
-    background-color: white;
+    /*background-color: white;*/
     padding: 25px;
 }
 
@@ -138,7 +150,7 @@ div {
 #contact-nav:hover {
     color: white;
     background-color: #f4e0fc;
-    transition: all 1s;
+    transition: all 0.3s;
 }
 
 .active-color {
@@ -401,21 +413,7 @@ button {
     color: gray;
 }
 
-/* student life */
-
-/*.img-life {
-    background-image: url(../img/red-headers/red-student-life.png);
-}*/
-
-/* top up */
-
-/* career */
-
 /* contact */
-
-/*.img-contact {
-    background-image: url(../img/red-headers/red-contact.png);
-}*/
 
 .contact-table {
     display: grid;
@@ -442,7 +440,7 @@ button {
 }
 
 .icons img {
-    max-width: 200px;
+    max-width: 150px;
 }
 
 /*
@@ -467,20 +465,103 @@ textarea {
 
 footer {
     padding: 10px;
+    /*background-color: yellow;*/
 }
 
-/* ---------- MOBILE / BREAKPOINT - Burger Menu ----------
+/* ---------- TABLET/ BREAKPOINT - Burger Menu ---------- */
 
-@media all and (max-width:200px) {
-    .logo-front {
-        position: fixed;
-        margin: 5px;
-        padding: 90px;
-        background-image: url(../img/kea-logo_3.jpg);
-        background-size: contain;
-        background-repeat: no-repeat;
+@media all and (max-width:70em) {
+
+    /* DO NOT DISPLAY GLOBAL */
+    footer {
+        padding: 10px;
+        /*background-color: red;*/
     }
 
+    .search-nav {
+        display: none;
+    }
+
+    .language {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+
+    /* TABLET STYLING*/
+    .logo-front {
+        max-width: 50px;
+    }
+    h1 {
+        position: relative;
+        margin: 0;
+        font-size: 30px;
+        font-family: 'Lato', 'Montserrat Subrayada', sans-serif;
+        text-shadow: 4px 4px #f4e0fc;
+    }
+
+    h2 {
+        0.8em;
+    }
+
+    h3 {
+        0.8em;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+
+    .layout {
+        max-width: 700px;
+        min-width: 100px;
+        margin: 10px auto 10px auto;
+        border: none;
+        background-color: #ffffff;
+        padding-top: 10em;
+        padding-left: 10em;
+        padding-right: 0.5em;
+        padding-bottom: 2em;
+    }
+
+    .icons img {
+        max-width: 120px;
+    }
+
+    .local-nav {
+        padding: 0;
+    }
+}
+
+/* ---------- MOBILE/ BREAKPOINT - Burger Menu ---------- */
+
+@media all and (max-width:40em) {
+
+    /* DO NOT DISPLAY MOBILE*/
+    .logo-front {
+        display: none;
+    }
+    /* STYLING MOBILE */
+    footer {
+        padding: 10px;
+        /*background-color: blue;*/
+    }
+
+    .layout {
+        max-width: 700px;
+        min-width: 50px;
+        margin: 10px auto 10px auto;
+        border: none;
+        background-color: #ffffff;
+        padding-top: 4em;
+        padding-left: 1em;
+        padding-right: 0.5em;
+        padding-bottom: 2em;
+    }
+
+    /* BURGER BAR*/
     input {
         display: none;
     }
@@ -490,12 +571,14 @@ footer {
         color: #cc4f31;
         display: block;
         padding: 0;
+        left: 0;
         font-size: 2em;
-        padding-left: 1em;
+        padding-left: 0.2em;
         padding-top: 0.2em;
+        position: fixed;
     }
 
-    nav {
+    .local-nav {
         max-height: 0;
         overflow: hidden;
     }
@@ -504,41 +587,40 @@ footer {
         max-height: 500px;
     }
 
+    .local-nav {
+        position: fixed;
+        display: block;
+        top: 3.2em;
+        left: 0;
+        height: 70vh;
+        padding: 0;
+        background-color: pink;
+    }
+
+    .local nav a {
+        padding: 5px;
+        padding-right: 5px;
+        padding-left: 25px;
+        display: block;
+        font-size: 0.8em;
+        color: black;
+        font-weight: 500;
+        text-transform: capitalize;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'lato', sans-serif;
+        background-color: white;
+    }
 }
 
-nav {
-    position: fixed;
-    display: block;
-    top: 20%;
-    left: 0;
-    height: 80vh;
-    background-color: white;
-    padding: 25px;
-}
-
-nav a {
-    padding: 15px;
-    padding-right: 30px;
-    padding-left: 25px;
-    display: block;
-    font-size: 20px;
-    color: black;
-    font-weight: 500;
-    text-transform: capitalize;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'lato', sans-serif;
-}
-
-.nav-title {
-    font-size: 50px;
+.local-nav .nav-title {
+    font-size: 30px;
     text-transform: capitalize;
     font-weight: 400;
     text-align: center;
     color: #140D0D;
     font-family: 'Lato', sans-serif;
     text-shadow: 2px 2px #f4e0fc;
-
 }
 
 #intro-nav:hover,
@@ -551,7 +633,7 @@ nav a {
 #contact-nav:hover {
     color: white;
     background-color: #f4e0fc;
-    transition: all 1s;
+    transition: all 0.3s;
 }
 
 .active-color {
@@ -559,4 +641,4 @@ nav a {
     background-color: #da291c;
 }
 
-*/
+}
