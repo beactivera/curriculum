@@ -1,8 +1,11 @@
 /* DESKTOP FIRST */
 
+/* GLOBAL SETTINGS */
+
 * {
-    font-family: arial, Nirmala UI, Helvetica, arial, sans-serif;
+    font-family: 'Open Sans', arial, helvetica, sans-serif;
     overflow-x: hidden;
+    background-image: url("paper.gif");
 }
 
 body {
@@ -12,11 +15,56 @@ body {
     padding: 0;
 }
 
+.layout {
+    max-width: 700px;
+    min-width: 100px;
+    margin: 10px auto 10px auto;
+    border: none;
+    background-color: #ffffff;
+    padding-top: 12em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 2em;
+}
+
+.center-img {
+    text-align: center;
+}
+
+.circle {
+    max-width: 130px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.student-life-img {
+    max-width: 300px;
+    padding: 1em;
+}
+
+.study-abroad-img {
+    max-width: 300px;
+    padding: 1em;
+}
+
+h1 {
+    position: relative;
+    margin: 0;
+    font-size: 35px;
+    font-family: 'Lato', 'Montserrat Subrayada', sans-serif;
+    text-shadow: 4px 4px #f4e0fc;
+}
+
+p a {
+    text-decoration: none;
+    color:
+}
+
 div {
     overflow-y: hidden;
 }
 
-/* navigation */
+/* GLOBAL navigation */
 
 .logo-front {
     position: fixed;
@@ -27,37 +75,69 @@ div {
     background-repeat: no-repeat;
 }
 
-nav {
+.search-nav {
+    width: 20px;
+    position: fixed;
+    right: 0px;
+    padding-right: 10em;
+    padding-top: 20px;
+}
+
+.language {
+    width: 20px;
+    position: fixed;
+    right: 0px;
+    padding-right: 7em;
+    padding-top: 5px;
+}
+
+/* LOCAL navigation */
+
+/*.hide-burger {
+    display: none;
+}*/
+
+input {
+    display: none;
+}
+
+label {
+    display: none;
+}
+
+.local-nav {
     position: fixed;
     display: block;
     top: 20%;
     left: 0;
     height: 80vh;
-    background-color: white;
+    /*background-color: white;*/
     padding: 25px;
 }
 
-nav a {
+.local-nav a {
     padding: 15px;
     padding-right: 30px;
     padding-left: 25px;
     display: block;
-    font-size: 20px;
+    font-size: 1em;
     color: black;
     font-weight: 500;
     text-transform: capitalize;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: sans-serif;
+    font-family: 'lato', sans-serif;
 }
 
-.nav-title {
-    font-size: 70px;
+.local-nav .nav-title {
+    font-size: 50px;
     text-transform: capitalize;
     font-weight: 400;
     text-align: center;
     color: #140D0D;
-    font-family: 'Archivo Black', 'Bungee Shade', 'Bungee', sans-serif;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 2px 2px #f4e0fc;
+
 }
 
 #intro-nav:hover,
@@ -65,11 +145,12 @@ nav a {
 #adm-nav:hover,
 #abroad-nav:hover,
 #student-nav:hover,
+#top-nav:hover,
 #career-nav:hover,
 #contact-nav:hover {
     color: white;
-    background-color: black;
-    transition: all 1.5s;
+    background-color: #f4e0fc;
+    transition: all 0.3s;
 }
 
 .active-color {
@@ -85,7 +166,6 @@ nav a {
     right: 7vw;
     width: 70vw;
     height: 100vh;
-    background-color: #da291c;
 }
 
 .title {
@@ -93,7 +173,9 @@ nav a {
     padding-top: 20px;
     font-weight: 500;
     font-size: 50px;
-    font-family: 'Archivo Black', 'Bungee Shade', 'Bungee', sans-serif;
+    /* font-family: 'Archivo Black', 'Bungee Shade', 'Bungee', sans-serif;*/
+    font-family: 'Lato', sans-serif;
+    text-shadow: 2px 2px #ffffff;
     letter-spacing: 5px;
 }
 
@@ -114,78 +196,10 @@ nav a {
     background-repeat: no-repeat;
 }
 
-/*.img-intro {
-    background-image: url(../img/red-headers/red-introduction.png);
-}*/
-
-/* global size for section titles */
-
-.title-section {
-    position: relative;
-    margin: 0;
-    padding-left: 100px;
-    font-size: 50px;
-    padding-left: 125px;
-    font-size: 40px;
-    font-weight: 400;
-    font-family: 'Archivo Black', sans-serif;
-    color: black;
-}
-
-/* global size for subtitles section */
-
-.sub-section {
-    padding-left: 60px;
-    font-weight: 600;
-    color: black;
-}
 
 /* introduction */
 
-.intro-container {
-    margin-left: 190px;
-    padding: 20px 110px 20px 45px;
-}
-
-.intro-container h2 {
-    padding-left: 60px;
-    color: black;
-}
-
-.intro-container p {
-    padding: 20px 60px 20px 60px;
-    color: #000000;
-}
-
-.intro-container p {
-    padding: 20px 100px 20px 55px;
-
-}
-
-/*.img-program {
-    background-image: url(../img/red-headers/red-study-program.png);
-}*/
-
 /* study program */
-
-.study-container {
-    margin-left: 190px;
-    padding: 20px 110px 20px 45px;
-}
-
-.study-content {
-    padding: 0px 40px 0px 60px;
-}
-
-.cores {
-    text-align: center;
-}
-
-.cores img {
-    max-width: 150px;
-    padding: 10px;
-    margin: 20px;
-}
 
 .time {
     padding: 20px;
@@ -339,19 +353,6 @@ button {
     background-image: url(../img/red-headers/red-admission.png);
 }*/
 
-.admission-container {
-    margin-left: 190px;
-    padding: 20px 110px 20px 45px;
-}
-
-.admission-desc {
-    padding: 20px 40px 20px 50px;
-}
-
-.admission-desc p {
-    padding: 10px;
-}
-
 .adm-container {
     display: grid;
     grid-template-columns: .5fr .5fr;
@@ -412,47 +413,6 @@ button {
     background-image: url(../img/red-headers/red-study-abroad.png);
 }*/
 
-.abroad-container {
-    margin-left: 190px;
-    padding: 20px 110px 20px 45px;
-}
-
-.images-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 1em;
-    padding-left: 70px;
-}
-
-.images-container div {
-    width: 100%;
-    padding: 90px;
-    padding-right: 0;
-    padding-left: 0;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.img1 {
-    background-image: url(../img/Griffith.png);
-}
-
-.img2 {
-    background-image: url(../img/korea.png);
-}
-
-.img3 {
-    background-image: url(../img/lisbon.png);
-}
-
-.img4 {
-    background-image: url(../img/napier.png);
-}
-
-.abroad-container p {
-    padding: 15px 40px 15px 60px;
-}
-
 .country-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -467,69 +427,7 @@ button {
     color: gray;
 }
 
-/* student life */
-
-/*.img-life {
-    background-image: url(../img/red-headers/red-student-life.png);
-}*/
-
-.student-container {
-    margin-left: 190px;
-    padding: 20px 110px 20px 45px;
-}
-
-.student-container p {
-    padding: 15px 55px 15px 60px;
-}
-
-/* career */
-
-.title-career-container {
-    margin-top: 110px;
-    margin-left: 190px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.title-career {
-    position: relative;
-    margin: 0;
-    padding: 10px;
-    padding-left: 100px;
-    font-size: 50px;
-    font-weight: 400;
-}
-
-.img-career {
-    padding: 80px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-image: url(../img/balloon.png)
-}
-
-.career-container {
-    margin-left: 190px;
-    padding: 20px 110px 20px 45px;
-}
-
-.career-container p {
-    padding: 10px 60px 10px 60px;
-}
-
 /* contact */
-
-/*.img-contact {
-    background-image: url(../img/red-headers/red-contact.png);
-}*/
-
-.contact-container {
-    margin-left: 190px;
-    padding: 20px 110px 20px 45px;
-}
-
-.contact-desc {
-    padding-left: 60px;
-}
 
 .contact-table {
     display: grid;
@@ -542,41 +440,219 @@ button {
     padding-top: 30px;
 }
 
+.search {
+    width: 20px;
+    position: fixed;
+    right: 0px;
+    padding-right: 21.5em;
+    padding-top: 20px;
+}
+
 .icons {
-    padding: 30px;
+    padding: 5px;
+    text-align: center;
 }
 
 .icons img {
-    max-width: 200px;
+    max-width: 150px;
 }
 
-input {
+/*
+.email input {
     margin: 5px;
     padding: 5px;
     border-style: none;
 }
 
-.advisor {
-    padding: 10px;
-    padding-top: 20px;
+.email input:hover {
+    color: white;
+    background-color: #f4e0fc;
+    transition: all 0.2s;
+}
+*/
+
+textarea {
+    max-width: 400px;
+    max-height: 120px;
 }
 
-.contact-info {
-    padding-top: 25px;
-}
-
-.contact-info p {
-    padding: 7px;
-    padding-left: 20px;
-}
-
-.instagram div {
-    width: 100px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 80px;
-}
 
 footer {
     padding: 10px;
+    /*background-color: yellow;*/
+}
+
+/* ---------- TABLET/ BREAKPOINT - Burger Menu ---------- */
+
+@media all and (max-width:70em) {
+
+    /* DO NOT DISPLAY GLOBAL */
+    footer {
+        padding: 10px;
+        /*background-color: red;*/
+    }
+
+    .search-nav {
+        display: none;
+    }
+
+    .language {
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+
+    /* TABLET STYLING*/
+    .logo-front {
+        max-width: 50px;
+    }
+    h1 {
+        position: relative;
+        margin: 0;
+        font-size: 30px;
+        font-family: 'Lato', 'Montserrat Subrayada', sans-serif;
+        text-shadow: 4px 4px #f4e0fc;
+    }
+
+    h2 {
+        0.8em;
+    }
+
+    h3 {
+        0.8em;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+
+    .layout {
+        max-width: 700px;
+        min-width: 100px;
+        margin: 10px auto 10px auto;
+        border: none;
+        background-color: #ffffff;
+        padding-top: 10em;
+        padding-left: 10em;
+        padding-right: 0.5em;
+        padding-bottom: 2em;
+    }
+
+    .icons img {
+        max-width: 120px;
+    }
+
+    .local-nav {
+        padding: 0;
+    }
+}
+
+/* ---------- MOBILE/ BREAKPOINT - Burger Menu ---------- */
+
+@media all and (max-width:40em) {
+
+    /* DO NOT DISPLAY MOBILE*/
+    .logo-front {
+        display: none;
+    }
+    /* STYLING MOBILE */
+    footer {
+        padding: 10px;
+        /*background-color: blue;*/
+    }
+
+    .layout {
+        max-width: 700px;
+        min-width: 50px;
+        margin: 10px auto 10px auto;
+        border: none;
+        background-color: #ffffff;
+        padding-top: 4em;
+        padding-left: 1em;
+        padding-right: 0.5em;
+        padding-bottom: 2em;
+    }
+
+    /* BURGER BAR*/
+    input {
+        display: none;
+    }
+
+    label {
+        cursor: pointer;
+        color: #cc4f31;
+        display: block;
+        padding: 0;
+        left: 0;
+        font-size: 2em;
+        padding-left: 0.2em;
+        padding-top: 0.2em;
+        position: fixed;
+    }
+
+    .local-nav {
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    input:checked ~ nav {
+        max-height: 500px;
+    }
+
+    .local-nav {
+        position: fixed;
+        display: block;
+        top: 3.2em;
+        left: 0;
+        height: 70vh;
+        padding: 0;
+        background-color: pink;
+    }
+
+    .local nav a {
+        padding: 5px;
+        padding-right: 5px;
+        padding-left: 25px;
+        display: block;
+        font-size: 0.8em;
+        color: black;
+        font-weight: 500;
+        text-transform: capitalize;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'lato', sans-serif;
+        background-color: white;
+    }
+}
+
+.local-nav .nav-title {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 400;
+    text-align: center;
+    color: #140D0D;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 2px 2px #f4e0fc;
+}
+
+#intro-nav:hover,
+#program-nav:hover,
+#adm-nav:hover,
+#abroad-nav:hover,
+#student-nav:hover,
+#top-nav:hover,
+#career-nav:hover,
+#contact-nav:hover {
+    color: white;
+    background-color: #f4e0fc;
+    transition: all 0.3s;
+}
+
+.active-color {
+    color: white;
+    background-color: #da291c;
+}
+
 }

@@ -5,6 +5,7 @@ let programBtn = document.getElementById('program-nav');
 let admBtn = document.getElementById('adm-nav');
 let abroadBtn = document.getElementById('abroad-nav');
 let studentBtn = document.getElementById('student-nav');
+let topBtn = document.getElementById('top-nav');
 let careerBtn = document.getElementById('career-nav');
 let contactBtn = document.getElementById('contact-nav');
 
@@ -12,14 +13,12 @@ let contactBtn = document.getElementById('contact-nav');
 
 let titleBtn = document.querySelector('.nav-title');
 titleBtn.addEventListener('click', reloadPage)
-
 function reloadPage() {
     location.reload();
 }
 
 //introduction
 introBtn.addEventListener('click', showIntro)
-
 function showIntro() {
     // highlight buttom
     introBtn.classList.add('active-color');
@@ -27,6 +26,9 @@ function showIntro() {
     admBtn.classList.remove('active-color');
     abroadBtn.classList.remove('active-color');
     studentBtn.classList.remove('active-color');
+
+
+    topBtn.classList.remove('active-color');
     careerBtn.classList.remove('active-color');
     contactBtn.classList.remove('active-color');
     //change sites
@@ -36,6 +38,7 @@ function showIntro() {
     document.getElementById("admission").classList.add('hide');
     document.getElementById("abroad").classList.add('hide');
     document.getElementById("student").classList.add('hide');
+    document.getElementById("top").classList.add('hide');
     document.getElementById("career").classList.add('hide');
     document.getElementById("contact").classList.add('hide');
 }
@@ -50,6 +53,7 @@ function showProgram() {
     admBtn.classList.remove('active-color');
     abroadBtn.classList.remove('active-color');
     studentBtn.classList.remove('active-color');
+    topBtn.classList.remove('active-color');
     careerBtn.classList.remove('active-color');
     contactBtn.classList.remove('active-color');
     //change sites
@@ -59,6 +63,7 @@ function showProgram() {
     document.getElementById("admission").classList.add('hide');
     document.getElementById("abroad").classList.add('hide');
     document.getElementById("student").classList.add('hide');
+    document.getElementById("top").classList.add('hide');
     document.getElementById("career").classList.add('hide');
     document.getElementById("contact").classList.add('hide');
 }
@@ -73,6 +78,7 @@ function showAdmission() {
     admBtn.classList.add('active-color');
     abroadBtn.classList.remove('active-color');
     studentBtn.classList.remove('active-color');
+    topBtn.classList.remove('active-color');
     careerBtn.classList.remove('active-color');
     contactBtn.classList.remove('active-color');
     //change sites
@@ -82,13 +88,13 @@ function showAdmission() {
     document.getElementById("admission").classList.remove('hide');
     document.getElementById("abroad").classList.add('hide');
     document.getElementById("student").classList.add('hide');
+    document.getElementById("top").classList.add('hide');
     document.getElementById("career").classList.add('hide');
     document.getElementById("contact").classList.add('hide');
 }
 
 //abroad
 abroadBtn.addEventListener('click', showAbroad)
-
 function showAbroad() {
     // highlight buttom
     introBtn.classList.remove('active-color');
@@ -96,6 +102,7 @@ function showAbroad() {
     admBtn.classList.remove('active-color');
     abroadBtn.classList.add('active-color');
     studentBtn.classList.remove('active-color');
+    topBtn.classList.remove('active-color');
     careerBtn.classList.remove('active-color');
     contactBtn.classList.remove('active-color');
     //change sites
@@ -105,6 +112,7 @@ function showAbroad() {
     document.getElementById("admission").classList.add('hide');
     document.getElementById("abroad").classList.remove('hide');
     document.getElementById("student").classList.add('hide');
+    document.getElementById("top").classList.add('hide');
     document.getElementById("career").classList.add('hide');
     document.getElementById("contact").classList.add('hide');
 }
@@ -119,6 +127,7 @@ function showStudent() {
     admBtn.classList.remove('active-color');
     abroadBtn.classList.remove('active-color');
     studentBtn.classList.add('active-color');
+    topBtn.classList.remove('active-color');
     careerBtn.classList.remove('active-color');
     contactBtn.classList.remove('active-color');
     //change sites
@@ -128,6 +137,32 @@ function showStudent() {
     document.getElementById("admission").classList.add('hide');
     document.getElementById("abroad").classList.add('hide');
     document.getElementById("student").classList.remove('hide');
+    document.getElementById("top").classList.add('hide');
+    document.getElementById("career").classList.add('hide');
+    document.getElementById("contact").classList.add('hide');
+}
+
+//top
+topBtn.addEventListener('click', showTop)
+
+function showTop() {
+    // highlight buttom
+    introBtn.classList.remove('active-color');
+    programBtn.classList.remove('active-color');
+    admBtn.classList.remove('active-color');
+    abroadBtn.classList.remove('active-color');
+    studentBtn.classList.remove('active-color');
+    topBtn.classList.add('active-color');
+    careerBtn.classList.remove('active-color');
+    contactBtn.classList.remove('active-color');
+    //change sites
+    document.getElementById("front").classList.add('hide');
+    document.getElementById("introduction").classList.add('hide');
+    document.getElementById("program").classList.add('hide');
+    document.getElementById("admission").classList.add('hide');
+    document.getElementById("abroad").classList.add('hide');
+    document.getElementById("student").classList.add('hide');
+    document.getElementById("top").classList.remove('hide');
     document.getElementById("career").classList.add('hide');
     document.getElementById("contact").classList.add('hide');
 }
@@ -142,6 +177,7 @@ function showCareer() {
     admBtn.classList.remove('active-color');
     abroadBtn.classList.remove('active-color');
     studentBtn.classList.remove('active-color');
+    topBtn.classList.remove('active-color');
     careerBtn.classList.add('active-color');
     contactBtn.classList.remove('active-color');
     //change sites
@@ -151,6 +187,7 @@ function showCareer() {
     document.getElementById("admission").classList.add('hide');
     document.getElementById("abroad").classList.add('hide');
     document.getElementById("student").classList.add('hide');
+    document.getElementById("top").classList.add('hide');
     document.getElementById("career").classList.remove('hide');
     document.getElementById("contact").classList.add('hide');
 }
@@ -165,6 +202,7 @@ function showContact() {
     admBtn.classList.remove('active-color');
     abroadBtn.classList.remove('active-color');
     studentBtn.classList.remove('active-color');
+    topBtn.classList.remove('active-color');
     careerBtn.classList.remove('active-color');
     contactBtn.classList.add('active-color');
     //change sites
@@ -174,6 +212,7 @@ function showContact() {
     document.getElementById("admission").classList.add('hide');
     document.getElementById("abroad").classList.add('hide');
     document.getElementById("student").classList.add('hide');
+    document.getElementById("top").classList.add('hide');
     document.getElementById("career").classList.add('hide');
     document.getElementById("contact").classList.remove('hide');
 }
