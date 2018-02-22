@@ -5,6 +5,7 @@
 * {
     font-family: 'Open Sans', arial, sans-serif;
     overflow-x: hidden;
+    background-image: url("paper.gif");
 }
 
 body {
@@ -52,14 +53,18 @@ h1 {
     font-size: 35px;
     font-family: 'Lato', 'Montserrat Subrayada', sans-serif;
     text-shadow: 4px 4px #f4e0fc;
+}
 
+p a {
+    text-decoration: none;
+    color:
 }
 
 div {
     overflow-y: hidden;
 }
 
-/* navigation */
+/* GLOBAL navigation */
 
 .logo-front {
     position: fixed;
@@ -70,7 +75,25 @@ div {
     background-repeat: no-repeat;
 }
 
-nav {
+.search-nav {
+    width: 20px;
+    position: fixed;
+    right: 0px;
+    padding-right: 10em;
+    padding-top: 20px;
+}
+
+.language {
+    width: 20px;
+    position: fixed;
+    right: 0px;
+    padding-right: 7em;
+    padding-top: 5px;
+}
+
+/* LOCAL navigation */
+
+.local-nav {
     position: fixed;
     display: block;
     top: 20%;
@@ -80,12 +103,12 @@ nav {
     padding: 25px;
 }
 
-nav a {
+.local-nav a {
     padding: 15px;
     padding-right: 30px;
     padding-left: 25px;
     display: block;
-    font-size: 20px;
+    font-size: 1em;
     color: black;
     font-weight: 500;
     text-transform: capitalize;
@@ -94,7 +117,7 @@ nav a {
     font-family: 'lato', sans-serif;
 }
 
-.nav-title {
+.local-nav .nav-title {
     font-size: 50px;
     text-transform: capitalize;
     font-weight: 400;
@@ -405,6 +428,14 @@ button {
     padding-top: 30px;
 }
 
+.search {
+    width: 20px;
+    position: fixed;
+    right: 0px;
+    padding-right: 21.5em;
+    padding-top: 20px;
+}
+
 .icons {
     padding: 5px;
     text-align: center;
@@ -414,17 +445,19 @@ button {
     max-width: 200px;
 }
 
-input {
+/*
+.email input {
     margin: 5px;
     padding: 5px;
     border-style: none;
 }
 
-input:hover {
+.email input:hover {
     color: white;
     background-color: #f4e0fc;
     transition: all 0.2s;
 }
+*/
 
 textarea {
     max-width: 400px;
@@ -435,3 +468,95 @@ textarea {
 footer {
     padding: 10px;
 }
+
+/* ---------- MOBILE / BREAKPOINT - Burger Menu ----------
+
+@media all and (max-width:200px) {
+    .logo-front {
+        position: fixed;
+        margin: 5px;
+        padding: 90px;
+        background-image: url(../img/kea-logo_3.jpg);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    input {
+        display: none;
+    }
+
+    label {
+        cursor: pointer;
+        color: #cc4f31;
+        display: block;
+        padding: 0;
+        font-size: 2em;
+        padding-left: 1em;
+        padding-top: 0.2em;
+    }
+
+    nav {
+        max-height: 0;
+        overflow: hidden;
+    }
+
+    input:checked ~ nav {
+        max-height: 500px;
+    }
+
+}
+
+nav {
+    position: fixed;
+    display: block;
+    top: 20%;
+    left: 0;
+    height: 80vh;
+    background-color: white;
+    padding: 25px;
+}
+
+nav a {
+    padding: 15px;
+    padding-right: 30px;
+    padding-left: 25px;
+    display: block;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'lato', sans-serif;
+}
+
+.nav-title {
+    font-size: 50px;
+    text-transform: capitalize;
+    font-weight: 400;
+    text-align: center;
+    color: #140D0D;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 2px 2px #f4e0fc;
+
+}
+
+#intro-nav:hover,
+#program-nav:hover,
+#adm-nav:hover,
+#abroad-nav:hover,
+#student-nav:hover,
+#top-nav:hover,
+#career-nav:hover,
+#contact-nav:hover {
+    color: white;
+    background-color: #f4e0fc;
+    transition: all 1s;
+}
+
+.active-color {
+    color: white;
+    background-color: #da291c;
+}
+
+*/
