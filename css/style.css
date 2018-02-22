@@ -15,12 +15,18 @@ body {
     padding: 0;
 }
 
+.big-title {
+    font-size: 4em;
+    color: white;
+    text-shadow: 4px 4px #F8817B;
+    text-transform: uppercase;
+}
+
 .layout {
     max-width: 700px;
     min-width: 100px;
     margin: 10px auto 10px auto;
     border: none;
-    background-color: #ffffff;
     padding-top: 12em;
     padding-left: 1em;
     padding-right: 1em;
@@ -80,7 +86,7 @@ div {
     position: fixed;
     margin: 5px;
     padding: 90px;
-    background-image: url(../img/kea-logo_3.jpg);
+    background-image: url(../img/kea-logo.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -129,7 +135,7 @@ label {
 
 .local-nav a {
     padding: 15px;
-    padding-right: 30px;
+    padding-right: 25px;
     padding-left: 25px;
     display: block;
     font-size: 1em;
@@ -173,11 +179,12 @@ label {
 /* front section */
 
 .front-square {
-    position: fixed;
     top: 0;
-    right: 10vw;
-    width: 70vw;
+    right: 10em;
+    left: 10em;
+    width: 100vw;
     height: 100vh;
+    background: linear-gradient(#FFACA3, #FFA39D, #FF9C96, #FF8B81, #F8817B);
 }
 
 .title {
@@ -374,8 +381,8 @@ button {
 
 .adm-container {
     display: grid;
-    grid-template-columns: .5fr .5fr;
     /*padding: 20px 40px 20px 50px;*/
+    grid-template-columns: 1fr 1fr;
 }
 
 .adm-container p {
@@ -547,16 +554,23 @@ footer {
         font-size: 0.8em;
     }
 
+    li {
+        font-size: 0.8em;
+    }
+
     .layout {
         max-width: 700px;
         min-width: 100px;
         margin: 10px auto 10px auto;
         border: none;
-        background-color: #ffffff;
         padding-top: 10em;
         padding-left: 10em;
         padding-right: 0.5em;
         padding-bottom: 2em;
+    }
+
+    .big-title {
+        font-size: 2em;
     }
 
     .icons img {
@@ -587,11 +601,14 @@ footer {
         min-width: 50px;
         margin: 10px auto 10px auto;
         border: none;
-        background-color: #ffffff;
         padding-top: 4em;
         padding-left: 1em;
         padding-right: 0.5em;
         padding-bottom: 2em;
+    }
+
+    .big-title {
+        font-size: 2em;
     }
 
     /* BURGER BAR*/
@@ -647,7 +664,7 @@ footer {
 }
 
 .local-nav .nav-title {
-    font-size: 30px;
+    font-size: 50px;
     text-transform: capitalize;
     font-weight: 400;
     text-align: center;
