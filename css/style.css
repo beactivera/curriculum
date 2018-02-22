@@ -296,7 +296,7 @@ nav a {
     right: 3%;
     background-position: right;
     background-repeat: no-repeat;
-    background-image: url(/img/close-button.svg)
+    background-image: url(../img/close-button.svg)
 }
 
 .description {
