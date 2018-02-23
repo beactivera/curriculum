@@ -20,6 +20,7 @@ body {
     color: white;
     text-shadow: 4px 4px #F8817B;
     text-transform: uppercase;
+    z-index: 1;
 }
 
 h3 a {
@@ -74,6 +75,7 @@ h1 {
     font-family: 'Lato', 'Montserrat Subrayada', sans-serif;
     text-shadow: 4px 4px #FFE8E6;
     color: #F8817B;
+    z-index: 1;
 }
 
 p a {
@@ -659,6 +661,7 @@ footer {
     .local-nav {
         max-height: 0;
         overflow: hidden;
+        z-index: 2;
     }
 
     input:checked ~ nav {
@@ -670,7 +673,6 @@ footer {
         display: block;
         top: 3.2em;
         left: 0;
-        height: 55vh;
         padding: 0;
         background: linear-gradient(#FFACA3, #FFA39D, #FF9C96, #FF8B81, #F8817B);
         font-size: 0.8em;
@@ -690,6 +692,7 @@ footer {
         text-transform: uppercase;
         font-family: 'lato', sans-serif;
         overflow-y: auto;
+        z-index: 2;
     }
 
     .local-nav .nav-title {
@@ -699,6 +702,7 @@ footer {
         color: #140D0D;
         font-family: 'Lato', sans-serif;
         text-shadow: 2px 2px white;
+        z-index: 2;
     }
 
     #intro-nav:hover,
