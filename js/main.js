@@ -11,7 +11,7 @@ let contactBtn = document.getElementById('contact-nav');
 
 //// reload website
 
-let titleBtn = document.querySelector('.nav-title');
+let titleBtn = document.getElementById('title-nav');
 titleBtn.addEventListener('click', reloadPage)
 function reloadPage() {
     location.reload();
@@ -26,8 +26,6 @@ function showIntro() {
     admBtn.classList.remove('active-color');
     abroadBtn.classList.remove('active-color');
     studentBtn.classList.remove('active-color');
-
-
     topBtn.classList.remove('active-color');
     careerBtn.classList.remove('active-color');
     contactBtn.classList.remove('active-color');
@@ -57,8 +55,7 @@ function showProgram() {
     careerBtn.classList.remove('active-color');
     contactBtn.classList.remove('active-color');
     //change sites
-    document.getElementById("front").classList.add('hide');
-    document.getElementById("introduction").classList.add('hide');
+    document.getElementById("front").classList.add('hide'); document.getElementById("introduction").classList.add('hide');
     document.getElementById("program").classList.remove('hide');
     document.getElementById("admission").classList.add('hide');
     document.getElementById("abroad").classList.add('hide');
