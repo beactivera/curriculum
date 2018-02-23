@@ -200,7 +200,7 @@ label {
     right: 10em;
     left: 10em;
     width: 100vw;
-    height: 100vh;
+    height: 90vh;
     background: linear-gradient(#FFACA3, #FFA39D, #FF9C96, #FF8B81, #F8817B);
 }
 
@@ -591,14 +591,13 @@ footer {
         min-width: 50px;
         margin: 10px auto 10px auto;
         border: none;
-        padding-top: 5em;
         padding-left: 3em;
         padding-right: 0.5em;
         padding-bottom: 2em;
     }
 
     .big-title {
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
     .icons img {
@@ -612,7 +611,7 @@ footer {
 
 /* ---------- MOBILE/ BREAKPOINT - Burger Menu ---------- */
 
-@media all and (max-width:40em) {
+@media all and (max-width:50em) {
 
     /* DO NOT DISPLAY MOBILE*/
     .logo-front {
@@ -623,13 +622,13 @@ footer {
         padding: 10px;
         /*background-color: blue;*/
     }
-
+    
     .layout {
         max-width: 700px;
         min-width: 50px;
         margin: 10px auto 10px auto;
         border: none;
-        padding-top: 4em;
+        padding-top: 3em;
         padding-left: 1em;
         padding-right: 0.5em;
         padding-bottom: 2em;
@@ -638,6 +637,12 @@ footer {
     .big-title {
         font-size: 2em;
         overflow: hidden;
+        padding: 15px;
+        padding-right: 150px;
+    }
+    
+    h3 a{
+        padding-left: 17px;
     }
 
     /* BURGER BAR*/
