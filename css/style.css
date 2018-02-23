@@ -632,21 +632,25 @@ footer {
         /*background-color: blue;*/
     }
     
+    .front-square{
+        height: 70vh;
+    }
+    
     .layout {
         max-width: 700px;
         min-width: 50px;
-        margin: 10px auto 10px auto;
+        margin: 0px auto 0px auto;
         border: none;
         padding-top: 5.5em;
-        padding-left: 1em;
+        padding-left: 0.5em;
         padding-right: 0.5em;
         padding-bottom: 2em;
     }
 
     .big-title {
-        font-size: 1.8em;
+        font-size: 1.5em;
         overflow: hidden;
-        padding: 15px;
+        padding: 10px;
         padding-right: 150px;
     }
     
@@ -734,6 +738,10 @@ footer {
     .active-color {
         color: white;
         background-color: #F8817B;
+    }
+    
+    .adm-container{
+        display: block;
     }
     
     .email{
