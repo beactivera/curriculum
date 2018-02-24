@@ -523,6 +523,11 @@ button {
 }
 */
 
+.input-mail{
+    display: block;
+    padding: 2px;
+}
+
 textarea {
     max-width: 400px;
     max-height: 120px;
@@ -633,7 +638,7 @@ footer {
     }
     
     .front-square{
-        height: 70vh;
+        height: 75vh;
     }
     
     .layout {
